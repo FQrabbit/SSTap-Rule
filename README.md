@@ -7,7 +7,7 @@
 
 注意，这里的规则统一格式为【1.0.9.7】版本的Rule格式
 
-也欢迎大家一起来完善这里的所有规则
+也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
 
 ---
 如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为1.0.9.7的SSTap  
@@ -26,16 +26,16 @@
 新增  
 支持的游戏规则  
   
-巫师:昆特牌-外服  
-影之诗Shadowverse  
-末转变者Unturned  
-仁王  
-上古卷轴OL  
-使命召唤4重置版  
-方舟:生存进化  
-黑暗之魂3  
-战舰世界-亚服  
-英雄连2  
+巫师:昆特牌-国际服(Gwent: The Witcher Card Game-International)  
+影之诗(Shadowverse)  
+末转变者(Unturned)  
+仁王(Nioh)  
+上古卷轴OL(The Elder Scrolls)  
+使命召唤4重置版(COD4: MWR)  
+方舟:生存进化(Ark: Survival Evolved)  
+黑暗之魂3(Dark Souls III)  
+战舰世界-亚服(World of Warships-Asia)  
+英雄连2(Company of Heroes 2)  
 Gang Beasts  
   
   
