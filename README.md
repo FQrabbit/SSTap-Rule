@@ -9,6 +9,8 @@
 
 也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
 
+如有失效，请提issues或者把新的规则提交PR.
+
 ---
 如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为1.0.9.7的SSTap  
 (里面会包含本项目的最新rule，打开即用)
