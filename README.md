@@ -15,9 +15,12 @@
 
 
 ---
-如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为1.0.9.7的SSTap  
+
+如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为`1.0.9.7`的SSTap  
 (里面会包含本项目的最新rule，打开即用)
+
 ---
+  
 ## 更新日志
    
   
