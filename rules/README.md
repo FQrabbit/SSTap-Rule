@@ -5,6 +5,7 @@
   
   
 
+
 # SSTab-Rule
 支持更多游戏规则，让SSTap成为真正的“网游加速器”
 
@@ -16,13 +17,25 @@
 
 也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
 
+
+如有失效，请提issues或者把新的规则提交PR.
+
+
+
 ---
 如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为1.0.9.7的SSTap  
 (里面会包含本项目的最新rule，打开即用)
-
 ---
 ## 更新日志
    
+  
+### 2018年7月6日
+  
+新增 ``不代理中国IP(且绕过局域网)`` 规则
+  
+规范规则命名
+  
+  
 ### 2018年7月4日  
 
 创建了项目
