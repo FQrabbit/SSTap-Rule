@@ -26,8 +26,29 @@
   
 ---
   
-## 更新日志
-   
+## 更新日志  
+  
+### 2018年7月10日  
+  
+新增 ``英雄联盟-台服 League-of-Legends-tw``游戏规则  
+  
+新增 ``英雄联盟-美服 League-of-Legends-us``游戏规则  
+  
+新增 ``守望先锋-亚服 Overwatch``游戏规则  
+  
+新增 ``Steam社区``平台规则(Beta)  
+  
+更新 ``战争雷霆-steam``游戏规则  
+  
+更新 ``星际战甲 Warframe``游戏规则  
+  
+更新 ``彩虹六号:围攻-东亚``游戏规则  
+  
+更新 ``GTA-V``游戏规则  
+  
+更新 ``绝地求生 PlayerUnknown's Battlegrounds``游戏规则  
+  
+  
 ### 2018年7月7日  
   
 新增``看门狗2 Watch Dogs2``游戏规则 By @ImLaoD   
