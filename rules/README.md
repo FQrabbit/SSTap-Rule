@@ -21,12 +21,40 @@
 
 ---
   
-如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为1.0.9.7的SSTap  
-(里面会包含本项目的最新rule，打开即用)
+~~~如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为`1.0.9.7`的SSTap  
+(里面会包含本项目的最新rule，打开即用)~~~
+  
+  由于打包的exe会被误报毒，所以决定取消同步更新打包，可能会更换成`rules`文件夹里所有文件的压缩包7z,解压后覆盖到程序里面的`rules`文件夹即可.
+  ### 由于不是后面再打包，所有可能会出现更新新的规则你的客户端没有同步更新，所以解压进去的时候注意看是否已经覆盖旧规则文件.
+  ~~如果不放心可以直接删掉你的`rules`文件夹下所有规则，导入本项目的规则(雾)~~
   
 ---
   
 ## 更新日志  
+  
+### 2018年8月14日  
+  
+更新`国内ip路由表` by @jason2000915 
+  
+更新 `绝地求生-亚服、东南亚服PUBG Asia & Northeast Asia` 游戏规则 by @lmc999
+  
+更新 `战地1 Battlefield 1` 游戏规则 by @jason2000915 
+  
+更新 `steam社区` 平台规则 by @jason2000915 
+  
+新增 `战地4 BattleField 4` 游戏规则 by @jason2000915 
+  
+新增 `欧卡2 Euro-Truck-Simulator-2` 游戏规则 by @jason2000915 
+  
+新增 `Origin客户端` 平台规则 by @jason2000915 
+  
+新增 `极限竞速7 Forza-7` 游戏规则 by @jason2000915 
+  
+新增 `脏弹Dirty-Bomb` 游戏规则 by @jason2000915 
+  
+新增 `Discord` 平台规则  
+  
+新增 `DayZ` 游戏规则 by @ImLaoD 
   
 ### 2018年7月10日  
   
