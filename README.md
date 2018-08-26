@@ -26,29 +26,37 @@
   
 ## 更新日志  
   
+### 2018年8月26日  
+  
+新增 `VRchat` 游戏规则 By @ImLaoD
+  
+### 2018年8月18日  
+  
+更新`国内ip路由表` By @1715173329
+  
 ### 2018年8月14日  
   
-更新`国内ip路由表` by @jason2000915 
+更新`国内ip路由表` By @jason2000915 
   
-更新 `绝地求生-亚服、东南亚服PUBG Asia & Northeast Asia` 游戏规则 by @lmc999
+更新 `绝地求生-亚服、东南亚服PUBG Asia & Northeast Asia` 游戏规则 By @lmc999
   
-更新 `战地1 Battlefield 1` 游戏规则 by @jason2000915 
+更新 `战地1 Battlefield 1` 游戏规则 By @jason2000915 
   
-更新 `steam社区` 平台规则 by @jason2000915 
+更新 `steam社区` 平台规则 By @jason2000915 
   
-新增 `战地4 BattleField 4` 游戏规则 by @jason2000915 
+新增 `战地4 BattleField 4` 游戏规则 By @jason2000915 
   
-新增 `欧卡2 Euro-Truck-Simulator-2` 游戏规则 by @jason2000915 
+新增 `欧卡2 Euro-Truck-Simulator-2` 游戏规则 By @jason2000915 
   
-新增 `Origin客户端` 平台规则 by @jason2000915 
+新增 `Origin客户端` 平台规则 By @jason2000915 
   
-新增 `极限竞速7 Forza-7` 游戏规则 by @jason2000915 
+新增 `极限竞速7 Forza-7` 游戏规则 By @jason2000915 
   
-新增 `脏弹Dirty-Bomb` 游戏规则 by @jason2000915 
+新增 `脏弹Dirty-Bomb` 游戏规则 By @jason2000915 
   
 新增 `Discord` 平台规则  
   
-新增 `DayZ` 游戏规则 by @ImLaoD 
+新增 `DayZ` 游戏规则 By @ImLaoD 
   
 ### 2018年7月10日  
   
