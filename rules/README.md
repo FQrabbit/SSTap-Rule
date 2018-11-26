@@ -32,6 +32,20 @@
   
 ## 更新日志  
   
+### 2018年10月23日  
+  
+更新 `Discord` 平台规则 By @AkinoYuiko  
+  
+### 2018年10月9日  
+  
+新增 `黑色幸存者 BlackSurvivor` 游戏规则 By @AmazingDM  
+  
+### 2018年9月17日
+  
+更新 `国内ip路由表` By @1715173329  
+  
+更新 `绝地求生-亚服、东南亚服 PUBG Asia & Northeast Asia` 游戏规则 By @lmc999 
+  
 ### 2018年8月27日  
   
 新增 `Osu!` 游戏规则  
