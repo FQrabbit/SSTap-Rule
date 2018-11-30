@@ -52,7 +52,7 @@
   
 ### 2018年8月26日  
   
-新增 `VRchat` 游戏规则 By @ImLaoD
+新增 `VRchat` 游戏规则 By @AmazingDM
   
 ### 2018年8月18日  
   
@@ -80,7 +80,7 @@
   
 新增 `Discord` 平台规则  
   
-新增 `DayZ` 游戏规则 By @ImLaoD 
+新增 `DayZ` 游戏规则 By @AmazingDM 
   
 ### 2018年7月10日  
   
@@ -105,7 +105,7 @@
    
 ### 2018年7月7日  
   
-新增``看门狗2 Watch Dogs2``游戏规则 By @ImLaoD   
+新增``看门狗2 Watch Dogs2``游戏规则 By @AmazingDM   
   
 新增``微软商店 Microsoft-Srote``规则 By @WhitecrowAuraro  
 
