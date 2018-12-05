@@ -45,6 +45,10 @@
 ### 2018年10月9日  
   
 新增 `黑色幸存者 BlackSurvivor` 游戏规则 By @AmazingDM  
+
+### 2018年9月9日  
+  
+新增 `eve欧服` 游戏规则 By @coldeve
   
 ### 2018年9月17日
   
