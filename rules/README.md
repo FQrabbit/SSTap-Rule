@@ -31,6 +31,14 @@
 ---
   
 ## 更新日志  
+
+### 2019年1月9日  
+
+新增 `HITMAN2` 平台规则 By @youdeoo  
+
+新增 `American Truck Simulator` 平台规则 By @youdeoo  
+
+新增 `Yu-Gi-Oh! Duel Links` 平台规则 By @youdeoo
   
 ### 2018年10月23日  
   
