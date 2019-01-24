@@ -10,7 +10,7 @@
 也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
 
 
-如有失效，请提issues或者把新的规则提交PR.
+如有失效，请提issues或者把新的规则提交PR(记得在README加上更新日志！！).
 
 ### 没有想要的规则又不想等待？那就自己动手吧。
 [创建规则教程 之 提取加速器规则（超详细）](https://github.com/FQrabbit/SSTap-Rule/wiki/%E5%88%9B%E5%BB%BA%E8%A7%84%E5%88%99%E6%95%99%E7%A8%8B-%E4%B9%8B-%E6%8F%90%E5%8F%96%E5%8A%A0%E9%80%9F%E5%99%A8%E8%A7%84%E5%88%99%EF%BC%88%E8%B6%85%E8%AF%A6%E7%BB%86%EF%BC%89)
