@@ -38,6 +38,8 @@
 
 新增 `Anthem` 游戏规则 By @Fururanza 
 
+新增 `圣歌` By @KagamigawaMeguri
+
 ### 2019年1月31日  
 
 新增 `刺客信条起源` `刺客信条奥德赛` `荣耀战魂` `极限巅峰` `飙酷车神1/2` `幽灵行动荒野` `全境封锁` `看门狗1` `守望先锋-美服` `行星边际2` `街头霸王5` `神谕之战` `求生意志OL` `叛乱：沙漠风暴`游戏规则 By @qxzg 
@@ -116,7 +118,7 @@
   
 ### 2018年8月26日  
   
-新增 `VRchat` 游戏规则 By @ImLaoD
+新增 `VRchat` 游戏规则 By @AmazingDM
   
 ### 2018年8月18日  
   
@@ -144,7 +146,7 @@
   
 新增 `Discord` 平台规则  
   
-新增 `DayZ` 游戏规则 By @ImLaoD 
+新增 `DayZ` 游戏规则 By @AmazingDM 
   
 ### 2018年7月10日  
   
@@ -169,7 +171,7 @@
    
 ### 2018年7月7日  
   
-新增``看门狗2 Watch Dogs2``游戏规则 By @ImLaoD   
+新增``看门狗2 Watch Dogs2``游戏规则 By @AmazingDM   
   
 新增``微软商店 Microsoft-Srote``规则 By @WhitecrowAuraro  
 
