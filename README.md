@@ -35,7 +35,7 @@
 
 ### 2019年2月9日
 
-新增 `Apex Legends` 游戏规则 By @AmazingDM
+新增 `Apex Legends` `黑色沙漠-steam` 游戏规则 By @AmazingDM
 
 ### 2019年2月2日
 
