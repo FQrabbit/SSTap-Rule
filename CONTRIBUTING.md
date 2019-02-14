@@ -1,7 +1,7 @@
 # 我要参与
 
 欢迎大家一起来完善这里的所有规则！  
-如果某个规则失效，或者你想新增一个规则，你可以开 issue 来提醒成员们及时修改，也可以自己开一个 Pull Request 来帮助我们。
+如果某个规则失效，或者你想新增一个规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来提醒成员们及时修改，也可以自己开一个 Pull Request 来帮助我们。
 
 ### issue / PR 注意事项
 提交 issue / Pull Request 时请：
@@ -12,7 +12,7 @@
 
 如果规则已经失效，你可以开 issue 或 fork 一份仓库，手动添加规则并建立 Pull Request 。  
 开 issue ：
-- 点击以新建一个 issue 。 
+- [点击以新建一个 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 。 
 - 仔细阅读模板，填写你认为重要的内容。
 - 点击 Create Issue ，完成。  
 
