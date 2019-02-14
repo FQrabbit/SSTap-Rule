@@ -1,34 +1,19 @@
 # SSTap-Rule
 
-支持更多游戏规则，让SSTap成为真正的“网游加速器”
+[![加入 Telegram 群组](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-Telegram_%E7%BE%A4%E7%BB%84-brightgreen.svg)](https://t.me/SSTapRule)
 
-由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口(其实就是批量打进Windows路由表/雾)
+支持更多游戏规则，让 SSTap 成为真正的“网游加速器”。  
+由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口（其实就是批量打进 Windows 路由表，雾）。  
+在这里会不定时的更新各类热门 `游戏` 的路由表规则，你只要把规则 `导入文件夹` 内即可使用
 
-在这里会不定时的更新各类热门`游戏`的路由表规则，你只要把规则`导入文件夹`内即可使用
+使用前请阅读[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)。
 
-注意，这里的规则统一格式为【1.0.9.7】版本的Rule格式
+注意，**这里的规则统一格式为【1.0.9.7】版本的** Rule 格式。
 
-也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
+## 我要参与
 
-如有失效，请提issues或者把新的规则提交PR(记得在README加上更新日志！！).
+请参阅 [贡献页](https://github.com/FQrabbit/SSTap-Rule/blob/master/CONTRIBUTING.md) 。
 
-### 没有想要的规则又不想等待？那就自己动手吧。
-
-[创建规则教程 之 提取加速器规则（超详细）](https://github.com/FQrabbit/SSTap-Rule/wiki/%E5%88%9B%E5%BB%BA%E8%A7%84%E5%88%99%E6%95%99%E7%A8%8B-%E4%B9%8B-%E6%8F%90%E5%8F%96%E5%8A%A0%E9%80%9F%E5%99%A8%E8%A7%84%E5%88%99%EF%BC%88%E8%B6%85%E8%AF%A6%E7%BB%86%EF%BC%89)
-
-手动抓IP教程酝酿中。。。
-
----
-  
-~~如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为`1.0.9.7`的SSTap  
-(里面会包含本项目的最新rule，打开即用)~~
-  
-由于打包的exe会被误报毒，所以决定取消同步更新打包，可能会更换成`rules`文件夹里所有文件的压缩包7z,解压后覆盖到程序里面的`rules`文件夹即可.
-
-### 由于不是后面再打包，所有可能会出现更新新的规则你的客户端没有同步更新，所以解压进去的时候注意看是否已经覆盖旧规则文件.
-
-~~如果不放心可以直接删掉你的`rules`文件夹下所有规则，导入本项目的规则(雾)~~
-  
 ---
 
 ## 更新日志
