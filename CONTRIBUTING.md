@@ -21,9 +21,9 @@
 - 在你的 Fork 中作出修改。
 - 确认你的修改可用，然后在你的 Fork 中点击 New Pull Request 。
 - 确认 base repository 是 `FQrabbit/SSTap-Rule`，base branch 是 `master` 。
-- 点击 New Pull Request ，弹出编辑框。
+- 点击 Create Pull Request ，弹出编辑框。
 - 认真阅读模板，填写你认为重要的内容。 
-- 点击 New Pull Request，完成。
+- 点击 Create Pull Request，完成。
 
 ### 我要怎么才能抓取到合适的规则？
 
