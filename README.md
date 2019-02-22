@@ -20,7 +20,7 @@
 
 ### 2019年2月22日
 
-更新 `Apex Legends` `Diablo3-Asia` `Diablo3-US` 游戏规则 By @Bourshevik0
+更新 `Apex Legends` 新增 `Diablo3-Asia` `Diablo3-US` 游戏规则 By @Bourshevik0
 
 ### 2019年2月17日
 
