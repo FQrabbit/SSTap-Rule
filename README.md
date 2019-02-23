@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年2月22日
+
+更新 `Apex Legends` 新增 `Diablo3-Asia` `Diablo3-US` 游戏规则 By @Bourshevik0
+
 ### 2019年2月17日
 
 修复 `叛乱：沙漠风暴` 规则无法识别问题 By @qxzg
