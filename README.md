@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年2月25日
+
+更新 `Apex-Legends` (原腾讯加速器Apex全服规则修改版) 游戏规则 By @Gambino
+
 ### 2019年2月24日
 
 更新 `Apex-Legends-tx` (腾讯加速器Apex全服) `Apex-Legends-uu` (网易UU加速器Apex全服) 游戏规则 By @Bourshevik0

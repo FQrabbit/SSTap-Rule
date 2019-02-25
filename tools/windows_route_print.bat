@@ -20,9 +20,9 @@ echo 参考: github.com/cssmagic/blog/issues/22
 echo.
 echo 直接回车为功能1
 echo 输入其他字符再回车为功能2
-set /p is_lazy=
-if defined is_lazy goto :CPLX
-goto :WORK
+set /p is_cplx=
+if defined is_cplx goto :CPLX
+goto :SMPL
 
 :CPLX
 echo.
@@ -56,8 +56,11 @@ set /p contributor=
 if not defined contributor set "contributor=FQrabbit"
 echo.
 
+:SMPL
 chcp 65001
-echo #%rules_en%,%rules_cn%,%is_drc%,%is_drc%,1,0,1,0,By-%contributor%> "%~dp0%rules_name%.rules"
+if defined is_cplx (
+    echo #%rules_en%,%rules_cn%,%is_drc%,%is_drc%,1,0,1,0,By-%contributor%> "%~dp0%rules_name%.rules"
+)
 route print -4> "%time_code%.txt"
 chcp 936
 echo.
@@ -65,7 +68,9 @@ echo 请查看当前目录
 echo "%~dp0"
 echo 中是否有以下文件生成
 echo %time_code%.txt
-echo %rules_name%.rules
+if defined is_cplx (
+    echo %rules_name%.rules
+)
 echo.
 echo 请Ctrl-A全选"%time_code%.txt"中的内容
 echo 并复制到该网站进行转换
@@ -85,35 +90,4 @@ echo 在普通用户权限可写入文件的文件夹内
 echo 运行以下指令
 echo route print -4^> xxx.txt
 echo.
-goto :END
-
-:WORK
-chcp 65001
-route print -4> "%time_code%.txt"
-chcp 936
-echo.
-echo 请查看当前目录
-echo "%~dp0"
-echo 中是否有以下文件生成
-echo %time_code%.txt
-echo.
-echo 请Ctrl-A全选并复制其中内容并到该网站进行转换
-echo tool.ssrshare.us/tool/routeToRules
-echo 然后参考以下方法创建规则文件
-echo github.com/FQrabbit/SSTap-Rule/wiki/创建规则教程-之-提取加速器规则（超详细）
-echo.
-echo 如果转换结果为空
-echo 请将网易UU加速模式只选为模式三
-echo 或者将模式一二三全选
-echo 再重新加速并重复以上步骤
-echo.
-echo 如果文件未能生成
-echo 请检查当前文件夹写入权限
-echo 或者打开命令行
-echo 在普通用户权限可写入文件的文件夹内
-echo 运行以下指令
-echo route print -4^> xxx.txt
-echo.
-
-:END
 call cmd
