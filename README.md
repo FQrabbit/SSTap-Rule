@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年2月27日
+
+更新 `R2Arena` 游戏规则 By @tianyu
+
 ### 2019年2月25日
 
 更新 `Apex-Legends` (原腾讯加速器Apex全服规则修改版) 游戏规则 By @Gambino
