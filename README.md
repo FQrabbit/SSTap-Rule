@@ -26,6 +26,8 @@
 
 更新 `R2US` （美服）游戏规则 By @tianyu
 
+更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
+
 ### 2019年2月25日
 
 更新 `Apex-Legends` (原腾讯加速器Apex全服规则修改版) 游戏规则 By @Gambino
