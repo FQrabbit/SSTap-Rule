@@ -23,6 +23,8 @@
 
 更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
 
+更新 `Telegram` （电报）规则 By @tianyu
+
 ### 2019年3月2日
 
 更新 `R2RU` （俄服官服）游戏规则 By @tianyu
