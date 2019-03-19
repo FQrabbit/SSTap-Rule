@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年3月15日
+
+更新 `战争雷霆` 游戏规则 By @Bourshevik0
+
 ### 2019年3月12日
 
 新增 `RagnarokOnlineTW` （仙境传说OL台湾）游戏规则 By @tianyu
