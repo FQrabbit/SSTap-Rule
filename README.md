@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年4月10日
+
+更新 `Final Fantasy XIV` （国际服）游戏规则 By @Bluefissure
+
 ### 2019年4月2日
 
 更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
