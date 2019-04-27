@@ -18,6 +18,10 @@
 
 ## 更新日志
 
+### 2019年4月27日
+
+更新 `Fortnite` （亞洲服）游戏规则 By @partment
+
 ### 2019年4月10日
 
 更新 `Final Fantasy XIV` （国际服）游戏规则 By @Bluefissure
