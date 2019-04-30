@@ -13,6 +13,16 @@
 
 **注意：解压缩之前请注意备份之前的规则文件，以防文件被覆盖造成的麻烦。**
 
+## 关于【1.1.0.1】版本导入规则
+- 首先，[下载最新的 `master` 分支的 zip 包](https://github.com/FQrabbit/SSTap-Rule/archive/master.zip) 。  
+- 打开你 SSTap 所在文件夹：  
+    - 在开始菜单中的快捷方式：右击 SSTap 快捷方式，选择打开文件位置。此时在弹出的窗口中你还会看到一个 SSTap 快捷方式。右击它，再选择一次打开文件位置。  
+    - 在桌面 / 其他位置的快捷方式：右击快捷方式，选择打开文件位置。
+- 打开压缩包内的`rules`文件夹，在窗口左上角`文件`选项中，选择打开Windows PowerShell
+- 输入下列代码`ls | ForEach-Object{$origin = $_ ;$text = [IO.File]::ReadAllText($origin.FullName); $text = $text.replace( "#" , "=") ; [IO.File]::WriteAllText($origin.FullName, $text)}`然后敲回车。~~讲道理，本代码只在win10下测试成功，理论上Win8可用。你说你用Win7？巨硬都不管你了我管你作甚🌸🐔~~
+- 打开 SSTap 文件夹下的 `rules` 文件夹。
+- 选择需要的文件，将它们拖至 SSTap rules 文件夹窗口内。你也可以全选，或者清除原来的规则文件，直接将本项目的规则拖入 SSTap rules 文件夹窗口。
+
 ## 记事本打开乱七八糟！
 
 这是因为规则文件的行尾并非 Windows 使用的行尾。  
