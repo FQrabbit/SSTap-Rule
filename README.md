@@ -17,6 +17,13 @@
 ---
 
 ## 更新日志
+
+### 2019年6月20日
+更新'World War Z' （全服）游戏规则 By @STC214  
+> Epic(PC)平台的将是世界大战
+> v1.0.9.7 master
+> v1.1.0.1 stnew
+
 ### 2019年6月12日
 更新 `Tom clancy's The Division 2` （亚洲）游戏规则 By @LJea
 
