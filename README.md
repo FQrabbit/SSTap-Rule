@@ -2,6 +2,8 @@
 
 [![加入 Telegram 群组](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-Telegram_%E7%BE%A4%E7%BB%84-brightgreen.svg)](https://t.me/SSTapRule)
 
+**推荐使用 [Netch](https://github.com/NetchX/Netch) 作为您的首选游戏加速工具（支持进程级加速、不需要一堆 IP 规则）**
+
 支持更多游戏规则，让 SSTap 成为真正的“网游加速器”。  
 由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口（其实就是批量打进 Windows 路由表，雾）。  
 在这里会不定时的更新各类热门 `游戏` 的路由表规则，你只要把规则 `导入文件夹` 内即可使用
