@@ -17,6 +17,10 @@
 ---
 
 ## 更新日志
+### 2019年6月16日
+
+更新 `Fortnite` （亞服）游戏规则 By @partment
+
 ### 2019年6月12日
 更新 `Tom clancy's The Division 2` （亚洲）游戏规则 By @LJea
 
