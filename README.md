@@ -1,76 +1,163 @@
 # SSTap-Rule
-支持更多游戏规则，让SSTap成为真正的“网游加速器”
 
-由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口(其实就是批量打进Windows路由表/雾)
+[![加入 Telegram 群组](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-Telegram_%E7%BE%A4%E7%BB%84-brightgreen.svg)](https://t.me/SSTapRule)
 
-在这里会不定时的更新各类热门`游戏`的路由表规则，你只要把规则`导入文件夹`内即可使用
+支持更多游戏规则，让 SSTap 成为真正的“网游加速器”。  
+由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口（其实就是批量打进 Windows 路由表，雾）。  
+在这里会不定时的更新各类热门 `游戏` 的路由表规则，你只要把规则 `导入文件夹` 内即可使用
 
-注意，这里的规则统一格式为【1.0.9.7】版本的Rule格式
+使用前请阅读[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)。
 
-也欢迎大家一起来完善这里的所有规则[Telegram群组](https://t.me/SSTapRule "Join the Telegram group")
+注意，**这里的规则统一格式为【1.0.9.7】版本的** Rule 格式。
 
+## 我要参与
 
-如有失效，请提issues或者把新的规则提交PR(记得在README加上更新日志！！).
-
-### 没有想要的规则又不想等待？那就自己动手吧。
-[创建规则教程 之 提取加速器规则（超详细）](https://github.com/FQrabbit/SSTap-Rule/wiki/%E5%88%9B%E5%BB%BA%E8%A7%84%E5%88%99%E6%95%99%E7%A8%8B-%E4%B9%8B-%E6%8F%90%E5%8F%96%E5%8A%A0%E9%80%9F%E5%99%A8%E8%A7%84%E5%88%99%EF%BC%88%E8%B6%85%E8%AF%A6%E7%BB%86%EF%BC%89)
-
-手动抓IP教程酝酿中。。。
-
+请参阅 [贡献页](https://github.com/FQrabbit/SSTap-Rule/blob/master/CONTRIBUTING.md) 。
 
 ---
-  
-~~如果你不清楚如何导入规则，那可以在本项目的[【发布点】](https://github.com/FQrabbit/SSTab-Rule/releases "点我下载")下载版本为`1.0.9.7`的SSTap  
-(里面会包含本项目的最新rule，打开即用)~~
-  
-  由于打包的exe会被误报毒，所以决定取消同步更新打包，可能会更换成`rules`文件夹里所有文件的压缩包7z,解压后覆盖到程序里面的`rules`文件夹即可.
-  ### 由于不是后面再打包，所有可能会出现更新新的规则你的客户端没有同步更新，所以解压进去的时候注意看是否已经覆盖旧规则文件.
-  ~~如果不放心可以直接删掉你的`rules`文件夹下所有规则，导入本项目的规则(雾)~~
-  
----
-## 更新日志 
+
+## 更新日志
+
+### 2019年6月20日
+更新'World War Z' （全服）游戏规则 By @STC214  
+> Epic(PC)平台的僵尸世界大战  
+> v1.0.9.7 master  
+> v1.1.0.1 stnew  
+
+### 2019年6月12日
+更新 `Tom clancy's The Division 2` （亚洲）游戏规则 By @LJea
+
+### 2019年5月25日
+
+新增 `CSGO` （港美日服）游戏规则 腾讯版 By @幼刀使い
+
+新增 `命运2` （全服）游戏规则 腾讯版 By @幼刀使い
+
+新增 `梦幻之星2` （日服）游戏规则 腾讯版 By @幼刀使い
+
+### 2019年5月2日
+
+更新 `Fortnite` （亞服）游戏规则 By @partment
+
+### 2019年4月10日
+
+更新 `Final Fantasy XIV` （国际服）游戏规则 By @Bluefissure
+
+### 2019年4月2日
+
+更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
+
+### 2019年3月15日
+
+更新 `战争雷霆` 游戏规则 By @Bourshevik0
+
+### 2019年3月12日
+
+新增 `RagnarokOnlineTW` （仙境传说OL台湾）游戏规则 By @tianyu
+
+### 2019年3月11日
+
+更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
+
+更新 `Telegram` （电报）规则 By @tianyu
+
+### 2019年3月2日
+
+更新 `R2RU` （俄服官服）游戏规则 By @tianyu
+
+更新 `R2US` （美服）游戏规则 By @tianyu
+
+更新 `R2Arena` （竞技场服）游戏规则 By @tianyu
+
+### 2019年2月25日
+
+更新 `Apex-Legends` (原腾讯加速器Apex全服规则修改版) 游戏规则 By @Gambino
+
+### 2019年2月24日
+
+更新 `Apex-Legends-tx` (腾讯加速器Apex全服) `Apex-Legends-uu` (网易UU加速器Apex全服) 游戏规则 By @Bourshevik0
+
+### 2019年2月23日
+
+更新 `Anthem` `Tom-Clancy's-Rainbow-Six-Siege-all` `War-thunder-steam` 新增 `Jump-Force` `League-of-Legends-kr` `NBA-2K19` `Pro-Evolution-Soccer-2018` `Pro-Evolution-Soccer-2019` `TianYaMingYueDao-tw`游戏规则 By @Bourshevik0
+
+更新 `Tom-Clancy's-Rainbow-Six-Siege-EAS` By @TGs4-Monet
+
+### 2019年2月22日
+
+更新 `Apex-Legends-uu` (网易UU加速器Apex全服) 新增 `Diablo3-Asia` `Diablo3-US` 游戏规则 By @Bourshevik0
+
+### 2019年2月17日
+
+修复 `叛乱：沙漠风暴` 规则无法识别问题 By @qxzg
+
+### 2019年2月9日
+
+新增 `Apex Legends` `黑色沙漠-steam` 游戏规则 By @AmazingDM
+
+### 2019年2月2日
+
+新增 `战争前线` `星际公民` `Atlas` 游戏规则 By @qxzg
+
+### 2019年2月1日
+
+新增 `Anthem` 游戏规则 By @Fururanza
+
+新增 `圣歌` By @KagamigawaMeguri
 
 ### 2019年1月31日  
 
-新增 `刺客信条起源` `刺客信条奥德赛` `荣耀战魂` `极限巅峰` `飙酷车神1/2` `幽灵行动荒野` `全境封锁` `看门狗1` `守望先锋-美服` `行星边际2` `街头霸王5` `神谕之战` `求生意志OL` `叛乱：沙漠风暴`游戏规则 By @qxzg 
+新增 `刺客信条起源` `刺客信条奥德赛` `荣耀战魂` `极限巅峰` `飙酷车神1/2` `幽灵行动荒野` `全境封锁` `看门狗1` `守望先锋-美服` `行星边际2` `街头霸王5` `神谕之战` `求生意志OL` `叛乱：沙漠风暴` 游戏规则 By @qxzg
 
 ### 2019年1月30日  
 
-更新 `战地1` 游戏规则 By @qxzg 
+更新 `战地1` 游戏规则 By @qxzg
+
+### 2019年1月19日
+
+更新 `战地5` `战争雷霆` 游戏规则 By @FoggyIce
+
+### 2019年1月9日  
+
+新增 `HITMAN2` 平台规则 By @youdeoo  
+
+新增 `American Truck Simulator` 平台规则 By @youdeoo  
+
+新增 `Yu-Gi-Oh! Duel Links` 平台规则 By @youdeoo
 
 ### 2018年12月31日  
 
-新增 `逃离塔科夫-全区` 游戏规则 By @AmazingDM 
+新增 `逃离塔科夫-全区` 游戏规则 By @AmazingDM
 
 ### 2018年12月19日  
 
-新增 `战舰世界-美服` 游戏规则 By @AmazingDM 
+新增 `战舰世界-美服` 游戏规则 By @AmazingDM
   
-更新 `LOL-台服(添加Garena平台规则)` 游戏规则 By @AmazingDM 
+更新 `LOL-台服(添加Garena平台规则)` 游戏规则 By @AmazingDM
 
 ### 2018年12月18日  
   
-更新 `LOL-台服` `流亡黯道-国际服` 新增 `堡垒之夜-亚服(UU模式3测试版)` 游戏规则 By @AmazingDM 
+更新 `LOL-台服` `流亡黯道-国际服` 新增 `堡垒之夜-亚服(UU模式3测试版)` 游戏规则 By @AmazingDM
 
 ### 2018年12月13日  
   
-新增 `魔兽世界-欧服` `流亡黯道-国际服` `灵魂行者-台服` `泰坦陨落2` 游戏规则 By @AmazingDM 
+新增 `魔兽世界-欧服` `流亡黯道-国际服` `灵魂行者-台服` `泰坦陨落2` 游戏规则 By @AmazingDM
 
 ### 2018年12月5日  
   
-新增 `失落的方舟韩服规则` 游戏规则 By @lmc999 
+新增 `失落的方舟韩服规则` 游戏规则 By @lmc999
 
 ### 2018年11月30日  
   
-新增 `永恒之塔-台服` 游戏规则 By @AmazingDM 
+新增 `永恒之塔-台服` 游戏规则 By @AmazingDM
   
 ### 2018年11月26日  
   
-更新 `黑色幸存者` 新增 `天命2-亚欧美` 更新 `CSGO-香港` 游戏规则 By @AmazingDM 
+更新 `黑色幸存者` 新增 `天命2-亚欧美` 更新 `CSGO-香港` 游戏规则 By @AmazingDM
   
 ### 2018年11月4日  
   
-更新 `使命召唤15亚服、亚马逊IP及Akamai IP` 平台及游戏规则 By @lmc999 
+更新 `使命召唤15亚服、亚马逊IP及Akamai IP` 平台及游戏规则 By @lmc999
   
 ### 2018年10月23日  
   
@@ -88,7 +175,7 @@
   
 更新 `国内ip路由表` By @1715173329  
   
-更新 `绝地求生-亚服、东南亚服 PUBG Asia & Northeast Asia` 游戏规则 By @lmc999 
+更新 `绝地求生-亚服、东南亚服 PUBG Asia & Northeast Asia` 游戏规则 By @lmc999
   
 ### 2018年8月30日  
   
@@ -100,7 +187,7 @@
   
 ### 2018年8月26日  
   
-新增 `VRchat` 游戏规则 By @ImLaoD
+新增 `VRchat` 游戏规则 By @AmazingDM
   
 ### 2018年8月18日  
   
@@ -108,71 +195,70 @@
   
 ### 2018年8月14日  
   
-更新`国内ip路由表` By @jason2000915 
+更新`国内ip路由表` By @jason2000915
   
 更新 `绝地求生-亚服、东南亚服PUBG Asia & Northeast Asia` 游戏规则 By @lmc999
   
-更新 `战地1 Battlefield 1` 游戏规则 By @jason2000915 
+更新 `战地1 Battlefield 1` 游戏规则 By @jason2000915
   
-更新 `steam社区` 平台规则 By @jason2000915 
+更新 `steam社区` 平台规则 By @jason2000915
   
-新增 `战地4 BattleField 4` 游戏规则 By @jason2000915 
+新增 `战地4 BattleField 4` 游戏规则 By @jason2000915
   
-新增 `欧卡2 Euro-Truck-Simulator-2` 游戏规则 By @jason2000915 
+新增 `欧卡2 Euro-Truck-Simulator-2` 游戏规则 By @jason2000915
   
-新增 `Origin客户端` 平台规则 By @jason2000915 
+新增 `Origin客户端` 平台规则 By @jason2000915
   
-新增 `极限竞速7 Forza-7` 游戏规则 By @jason2000915 
+新增 `极限竞速7 Forza-7` 游戏规则 By @jason2000915
   
-新增 `脏弹Dirty-Bomb` 游戏规则 By @jason2000915 
+新增 `脏弹Dirty-Bomb` 游戏规则 By @jason2000915
   
 新增 `Discord` 平台规则  
   
-新增 `DayZ` 游戏规则 By @ImLaoD 
+新增 `DayZ` 游戏规则 By @AmazingDM
   
 ### 2018年7月10日  
   
-新增 ``英雄联盟-台服 League-of-Legends-tw``游戏规则  
+新增 `英雄联盟-台服 League-of-Legends-tw` 游戏规则  
   
-新增 ``英雄联盟-美服 League-of-Legends-us``游戏规则  
+新增 `英雄联盟-美服 League-of-Legends-us` 游戏规则  
   
-新增 ``守望先锋-亚服 Overwatch``游戏规则  
+新增 `守望先锋-亚服 Overwatch` 游戏规则  
   
-新增 ``Steam社区``平台规则(Beta)  
+新增 `Steam社区` 平台规则(Beta)  
   
-更新 ``战争雷霆-steam``游戏规则  
+更新 `战争雷霆-steam` 游戏规则  
   
-更新 ``星际战甲 Warframe``游戏规则  
+更新 `星际战甲 Warframe` 游戏规则  
   
-更新 ``彩虹六号:围攻-东亚``游戏规则  
+更新 `彩虹六号:围攻-东亚` 游戏规则  
   
-更新 ``GTA-V``游戏规则  
+更新 `GTA-V` 游戏规则  
   
-更新 ``绝地求生 PlayerUnknown's Battlegrounds``游戏规则  
-  
-   
-### 2018年7月7日  
-  
-新增``看门狗2 Watch Dogs2``游戏规则 By @ImLaoD   
-  
-新增``微软商店 Microsoft-Srote``规则 By @WhitecrowAuraro  
+更新 `绝地求生 PlayerUnknown's Battlegrounds` 游戏规则
 
-新增及优化``只代理中国IP``,``不代理中国IP(且绕过局域网)``规则 By @1715173329  
+### 2018年7月7日
+
+新增`看门狗2 Watch Dogs2` 游戏规则 By @AmazingDM
+  
+新增`微软商店 Microsoft-Store` 规则 By @WhitecrowAuraro  
+
+新增及优化`只代理中国IP`,`不代理中国IP(且绕过局域网)` 规则 By @1715173329  
   
 ### 2018年7月6日
-  
-新增 ``不代理中国IP(且绕过局域网)`` 规则
-  
+
+新增 `不代理中国IP(且绕过局域网)` 规则
+
 规范规则命名
-  
-  
+
 ### 2018年7月4日  
 
 创建了项目
- 
 
-``(以下更新是我之前别的地方留的日志，那时候本项目还没建立xd，不要在意细节233)``
-### 2018年2月6日  
+`(以下更新是我之前别的地方留的日志，那时候本项目还没建立xd，不要在意细节233)`
+
+### 2018年2月6日
+
 新增  
 支持的游戏规则  
   
@@ -188,9 +274,8 @@
 英雄连2(Company of Heroes 2)  
 Gang Beasts  
   
-  
-  
-### 2018年2月4日  
+### 2018年2月4日
+
 新增  
 支持的游戏规则  
   

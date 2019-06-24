@@ -1,4 +1,4 @@
-#Skip all China IP mini and LAN,不代理中国IP且绕过局域网(精简版CNIP表),1,1,1,0,1,0,
+=Skip all China IP mini and LAN,不代理中国IP且绕过局域网(精简版CNIP表),1,1,1,0,1,0,
 0.0.0.0/7
 10.0.0.0/8
 100.64.0.0/10
