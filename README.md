@@ -6,7 +6,7 @@
 由于作者的原因，停止了更新SSTap，但是已经给我们留下了路由规则的接口（其实就是批量打进 Windows 路由表，雾）。  
 在这里会不定时的更新各类热门 `游戏` 的路由表规则，你只要把规则 `导入文件夹` 内即可使用
 
-推荐使用 [Netch 游戏加速工具](https://github.com/NetchX/Netch)，支持进程级加速，不需要 IP 规则，很方便
+**推荐使用 [Netch 游戏加速工具](https://github.com/NetchX/Netch)，支持进程级加速，不需要 IP 规则，很方便**
 
 使用前请阅读[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)。
 
