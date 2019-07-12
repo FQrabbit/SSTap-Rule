@@ -17,6 +17,10 @@
 ---
 
 ## 更新日志
+### 2019年7月12日
+
+更新`PUBGLite`（全服）游戏规则 By @PUBGLITE
+
 ### 2019年6月16日
 
 更新 `Fortnite` （亞服）游戏规则 By @partment
