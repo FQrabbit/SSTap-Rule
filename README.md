@@ -17,6 +17,11 @@
 ---
 
 ## 更新日志
+
+### 2019年7月29日
+
+更新 `Forza Horizon 4(极限竞速地平线4)` （全服）游戏规则 By @Liu
+
 ### 2019年7月17日
 
 更新 `PUBGLite(绝地求生轻量版)` （Garena客户端）游戏规则 By @PUBGLite
@@ -30,6 +35,7 @@
 更新 `Fortnite` （亞服）游戏规则 By @partment
 
 ### 2019年6月12日
+
 更新 `Tom clancy's The Division 2` （亚洲）游戏规则 By @LJea
 
 ### 2019年5月25日
