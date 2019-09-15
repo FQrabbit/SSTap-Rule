@@ -17,13 +17,17 @@
 ---
 
 ## 更新日志
+### 2019年9月15日
+
+更新 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
+
 ### 2019年7月17日
 
-更新 `PUBGLite(绝地求生轻量版)` （Garena客户端）游戏规则 By @PUBGLite
+新增 `PUBGLite(绝地求生轻量版)` （Garena客户端）游戏规则 By @PUBGLite
 
 ### 2019年7月13日
 
-更新 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
+新增 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
 
 ### 2019年6月16日
 
