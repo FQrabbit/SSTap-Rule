@@ -17,6 +17,20 @@
 ---
 
 ## 更新日志
+
+### 2019年9月16日
+
+新增 `Monster Hunter: World（怪兽世界）` （steam）游戏规则  By @normanbb
+
+新增 `LOLPBE（英雄联盟）` （测试服）游戏规则  By @normanbb
+
+新增 `worldofwarcraft__tw（魔兽世界）` （台服）游戏规则  By @normanbb
+
+
+新增 `Gwent（巫师昆特牌）` （国际服）游戏规则  By @normanbb
+
+更新 `warthunder(战争雷霆)` （steam）游戏规则 By @normanbb
+
 ### 2019年9月1日
 
 更新 `warframe(星际战甲)` （steam）游戏规则 By @normanbb
