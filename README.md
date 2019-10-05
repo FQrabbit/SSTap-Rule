@@ -17,9 +17,42 @@
 ---
 
 ## 更新日志
+
+### 2019年10月3日
+
+更新 `Destiny 2（命运2）` （Steam-UU/TX）游戏规则 By @幼刀使い
+
+更新 `CSGO` （Steam-TX）游戏规则 By @幼刀使い
+
+更新 `PSO2（梦幻之星2）` （日服-TX）游戏规则 By @幼刀使い
+
 ### 2019年10月1日
 
 更新 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
+
+### 2019年9月16日
+
+新增 `Monster Hunter: World（怪兽世界）` （steam）游戏规则  By @normanbb
+
+新增 `LOLPBE（英雄联盟）` （测试服）游戏规则  By @normanbb
+
+新增 `worldofwarcraft__tw（魔兽世界）` （台服）游戏规则  By @normanbb
+
+新增 `Gwent（巫师昆特牌）` （国际服）游戏规则  By @normanbb
+
+更新 `warthunder(战争雷霆)` （steam）游戏规则 By @normanbb
+
+### 2019年9月1日
+
+更新 `warframe(星际战甲)` （steam）游戏规则 By @normanbb
+
+### 2019年8月19日
+
+更新 `新枫之谷(冒险岛台服)` （全服）游戏规则  
+
+### 2019年7月29日
+
+更新 `Forza Horizon 4(极限竞速地平线4)` （全服）游戏规则 By @Liu
 
 ### 2019年7月17日
 
@@ -34,6 +67,7 @@
 更新 `Fortnite` （亞服）游戏规则 By @partment
 
 ### 2019年6月12日
+
 更新 `Tom clancy's The Division 2` （亚洲）游戏规则 By @LJea
 
 ### 2019年5月25日
