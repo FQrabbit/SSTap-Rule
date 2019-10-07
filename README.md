@@ -18,6 +18,13 @@
 
 ## 更新日志
 
+### 2019年10月日
+
+新增 `StarCraft Ⅱ,星际争霸2` （国服）游戏规则  By @normanbb
+
+新增 `FINAL FANTASY XIV,最终幻想14` （国服）游戏规则  By @normanbb
+
+新增  `Borderlands 3,无主之地3`（亚服） By @normanbb
 
 ### 2019年10月3日
 
@@ -34,7 +41,7 @@
 
 ### 2019年9月16日
 
-新增 `Monster Hunter: World（怪兽世界）` （steam）游戏规则  By @normanbb
+新增 `Monster Hunter: World（怪兽猎人：世界）` （steam）游戏规则  By @normanbb
 
 新增 `LOLPBE（英雄联盟）` （测试服）游戏规则  By @normanbb
 
