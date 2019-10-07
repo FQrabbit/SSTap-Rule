@@ -19,6 +19,19 @@
 ## 更新日志
 
 
+### 2019年10月3日
+
+更新 `Destiny 2（命运2）` （Steam-UU/TX）游戏规则 By @幼刀使い
+
+更新 `CSGO` （Steam-TX）游戏规则 By @幼刀使い
+
+更新 `PSO2（梦幻之星2）` （日服-TX）游戏规则 By @幼刀使い
+
+### 2019年10月1日
+
+更新 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
+
+
 ### 2019年9月16日
 
 新增 `Monster Hunter: World（怪兽世界）` （steam）游戏规则  By @normanbb
@@ -45,11 +58,11 @@
 
 ### 2019年7月17日
 
-更新 `PUBGLite(绝地求生轻量版)` （Garena客户端）游戏规则 By @PUBGLite
+新增 `PUBGLite(绝地求生轻量版)` （Garena客户端）游戏规则 By @PUBGLite
 
 ### 2019年7月13日
 
-更新 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
+新增 `PUBGLite(绝地求生轻量版)` （web客户端）游戏规则 By @PUBGLite
 
 ### 2019年6月16日
 
