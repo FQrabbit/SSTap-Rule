@@ -18,9 +18,24 @@
 
 ## 更新日志
 
-###2019年10月31日
+### 2019年11月4日
 
-更新'游戏王决斗链接'游戏规则 By @oooldtoy
+新增 `Dota Underlords,刀塔霸业` 游戏规则  By @72521
+
+新增 `FIFA20` 游戏规则  By @normanbb
+
+新增 `Kurtzpel` 游戏规则  By @normanbb
+
+新增 `NBA2k20` 游戏规则  By @normanbb
+
+更新 `Shadowverse,影之诗` 游戏规则  By @normanbb
+
+更新 `World of Tanks-Asia,坦克世界` （亚服）游戏规则  By @normanbb
+
+
+### 2019年10月31日
+
+更新 `游戏王决斗链接` 游戏规则 By @oooldtoy
 
 ### 2019年10月17日
 
