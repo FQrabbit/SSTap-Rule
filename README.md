@@ -20,7 +20,7 @@
 
 ### 2019年11月4日
 
-新增 `Dota Underlords,刀塔霸业` 游戏规则  By @72521
+新增 `Dota Underlords,刀塔霸业` 游戏规则  By @72521 & @kokutoukiritsugu
 
 新增 `FIFA20` 游戏规则  By @normanbb
 
