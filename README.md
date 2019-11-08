@@ -10,6 +10,3 @@
 
 注意，**这里的规则统一格式为【1.0.9.7】版本的** Rule 格式。
 
-## 我要参与
-
-请参阅 [贡献页](https://github.com/FQrabbit/SSTap-Rule/blob/master/CONTRIBUTING.md) 。
