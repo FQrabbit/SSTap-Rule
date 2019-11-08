@@ -2,7 +2,7 @@
 
 ## 如何导入这些规则？
 > ~~如果你不想手动导入这些规则，请在 [Releases 页](https://github.com/FQrabbit/SSTap-Rule/releases) 下载我们打包好的 SSTap 安装。**当然，Releases 的更新速度不及 master 分支。**~~  
-由于打包的安装器会报毒，我们停止了 Releases 更新。
+~~由于打包的安装器会报毒，我们停止了 Releases 更新。~~
 
 - 首先，[下载最新的 `master` 分支的 zip 包](https://github.com/FQrabbit/SSTap-Rule/archive/master.zip) 。  
 - 打开你 SSTap 所在文件夹：  
@@ -22,3 +22,19 @@ Windows 10 1809 的记事本已经支持 Unix 行尾。
 ## 规则无法使用！
 
 请加入我们的 Telegram 群组，或者开 issue 反馈问题。
+
+## 我要参与
+
+欢迎大家一起来完善这里的所有规则！  
+如果某个规则失效，或者你想新增一个规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来提醒成员们及时修改，也可以自己开一个 Pull Request 来帮助我们。
+
+### issue / PR 注意事项
+提交 issue / Pull Request 时请：
+- 仔细阅读模板，并认真填写注释
+
+
+### 我要怎么才能抓取到合适的规则？
+
+[创建规则教程 之 提取加速器规则（超详细）](https://github.com/FQrabbit/SSTap-Rule/wiki/%E5%88%9B%E5%BB%BA%E8%A7%84%E5%88%99%E6%95%99%E7%A8%8B-%E4%B9%8B-%E6%8F%90%E5%8F%96%E5%8A%A0%E9%80%9F%E5%99%A8%E8%A7%84%E5%88%99%EF%BC%88%E8%B6%85%E8%AF%A6%E7%BB%86%EF%BC%89)
+
+
