@@ -2,6 +2,12 @@
 
 ## 更新日志
 
+### 2019年11月14日
+
+更新`Day Z`规则 By @linianqing
+
+更新`China-ip-only` By @normanbb
+
 ### 2019年11月4日
 
 新增 `Dota Underlords,刀塔霸业` 游戏规则  By @72521 & @kokutoukiritsugu
