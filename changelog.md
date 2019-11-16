@@ -4,6 +4,14 @@
 
 ### 2019年11月14日
 
+更新`Dota2-jp`游戏规则（日服） By @normanbb
+
+新增 `Red-dead-redemption2，荒野大镖客2`游戏规则 By @normanbb
+
+新增 `Destiny2-steam，命运2`（steam）游戏规则 By @normanbb
+
+### 2019年11月14日
+
 更新`Day Z`规则 By @linianqing
 
 更新`China-ip-only` By @normanbb
