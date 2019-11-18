@@ -10,6 +10,10 @@
 
 新增 `Destiny2-steam，命运2`（steam）游戏规则 By @normanbb
 
+更新`PUBG`游戏规则（亚服及东南亚服） By @normanbb
+
+新增 `Worldwar Z，僵尸世界大战`游戏规则 By @STC214
+
 ### 2019年11月14日
 
 更新`Day Z`规则 By @linianqing
