@@ -1,13 +1,12 @@
 # SSTap-Rule
 
-> 在开始之前，你应该掌握SStap的基本用法。
-
 **适用sstap版本：1.0.9.7**     
 
  [点我进入下载页面](https://github.com/FQrabbit/SSTap-Rule/releases/tag/SSTap常用版本及去广告) 
 
 
 >SStap官方网站：[sstap-享受游戏-使用sstap](https://www.sockscap64.com/sstap-享受游戏-使用sstap/) 
+>
 >SSTap已于2017年11月19日停止开发及维护. 
 
 由于作者的原因，停止了更新SSTap，但SStap所用到的修改系统路由表的方法依旧可用。
@@ -36,9 +35,7 @@
 
 **欢迎大家一起来完善这里的所有规则！**  
 
-如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则或查看wiki教程来自己编写路由表。
+如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。
 
-Wiki
-
-Changelog
+[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md)
 
