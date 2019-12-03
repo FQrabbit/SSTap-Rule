@@ -1,6 +1,28 @@
 
 
-## 更新日志
+# 更新日志
+
+### 2019年11月29日
+
+更新 `Red-dead-redemption2，荒野大镖客2`（steam）游戏规则 By @ip_crawl_tool 
+
+新增 `Maplestory-us，冒险岛` （美服）游戏规则 By @normanbb
+
+新增 `Dauntless，不屈不挠`游戏规则 By @412572219
+
+更新`GTA5`游戏规则  By @normanbb
+
+新增 `Guild-Wars-2,激战2`游戏规则 By @normanbb
+
+新增 `Ring-of-Elysium,无限法则`（亚服）游戏规则 By @normanbb
+
+删除`Warframe，星际战甲`（steam）游戏规则  By @normanbb（游戏使用P2P互联，且服务器质量已改善。）
+
+新增 `Star-Wars-BattlefrontII,星球大战2前线`游戏规则 By @normanbb
+
+### 2019年11月24日
+
+新增 `YY语音`（回国用）游戏规则 By @helpmsg
 
 ### 2019年11月14日
 
