@@ -1,10 +1,13 @@
 
 
 # 更新日志
-###2019年12月15日
-更新 `Lost-Ark-RU，失落的方舟俄服` By @ip_crawl_tool 
-更新 `League-of-Legends-jp，英雄联盟日服` By @ip_crawl_tool 
-更新 `WorldOfWarships-EU，战舰世界欧服` By @ip_crawl_tool 
+
+### 2019年12月15日
+更新 `Lost-Ark-RU，失落的方舟俄服` By @ip_crawl_tool
+
+更新 `League-of-Legends-jp，英雄联盟日服` By @ip_crawl_tool
+
+更新 `WorldOfWarships-EU，战舰世界欧服` By @ip_crawl_tool
 
 ### 2019年11月29日
 
