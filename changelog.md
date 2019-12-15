@@ -2,6 +2,16 @@
 
 # 更新日志
 
+### 2019年12月15日
+
+更新 `Discord` 规则 By ip_crawl_tool
+
+新增 `Lostark RU,失落的方舟俄服` 规则 By ip_crawl_tool
+
+新增 `Roblox`游戏规则 By @412572219
+
+新增 `StarCraft-2-asia，星际争霸2`（亚服）游戏规则 By @normanbb
+
 ### 2019年11月29日
 
 更新 `Red-dead-redemption2，荒野大镖客2`（steam）游戏规则 By @ip_crawl_tool 
