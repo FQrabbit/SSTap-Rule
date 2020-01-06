@@ -37,6 +37,10 @@ By @normanbb
 
 新增 `StarCraft-2-asia，星际争霸2`（亚服）游戏规则 By @normanbb
 
+更新`League-of-Legends-jp，LOL日服` 规则 By ip_crawl_tool
+
+新增`rules/World-of-warships-EU，战舰世界欧服` 规则 By ip_crawl_tool
+
 ### 2019年11月29日
 
 更新 `Red-dead-redemption2，荒野大镖客2`（steam）游戏规则 By @ip_crawl_tool 
