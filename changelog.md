@@ -2,9 +2,30 @@
 
 # 更新日志
 
+### 2020年1月6日
+
+By @normanbb
+
+更新`BlackDesert,黑色沙漠` 游戏规则
+
+更新`BlackSurvivor,黑色幸存者` 游戏规则
+
+更新`Fortnite-as,堡垒之夜亚服`游戏规则
+
+更新`跳过中国大陆`规则
+
+更新`Warthunder，战争雷霆`游戏规则
+
+新增`world war 3`游戏规则
+
+新增`Miscreated,误造`游戏规则
+
+新增`仙境传说OL 2 （美服）,Ragnarok-Online-2-us`游戏规则
+
+
 ### 2019年12月19日
 
-更新 `Osu!` 游戏规则
+更新 `Osu!` 游戏规则 By@FQrabbit
 
 ### 2019年12月15日
 
