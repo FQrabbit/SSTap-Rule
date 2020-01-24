@@ -2,9 +2,30 @@
 
 # 更新日志
 
+### 2020年1月6日
+
+By @normanbb
+
+更新`BlackDesert,黑色沙漠` 游戏规则
+
+更新`BlackSurvivor,黑色幸存者` 游戏规则
+
+更新`Fortnite-as,堡垒之夜亚服`游戏规则
+
+更新`跳过中国大陆`规则
+
+更新`Warthunder，战争雷霆`游戏规则
+
+新增`world war 3`游戏规则
+
+新增`Miscreated,误造`游戏规则
+
+新增`仙境传说OL 2 （美服）,Ragnarok-Online-2-us`游戏规则
+
+
 ### 2019年12月19日
 
-更新 `Osu!` 游戏规则
+更新 `Osu!` 游戏规则 
 
 ### 2019年12月15日
 
@@ -15,6 +36,10 @@
 新增 `Roblox`游戏规则 By @412572219
 
 新增 `StarCraft-2-asia，星际争霸2`（亚服）游戏规则 By @normanbb
+
+更新`League-of-Legends-jp，LOL日服` 规则 By ip_crawl_tool
+
+新增`rules/World-of-warships-EU，战舰世界欧服` 规则 By ip_crawl_tool
 
 ### 2019年11月29日
 
