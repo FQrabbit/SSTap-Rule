@@ -16,9 +16,9 @@
 ## 赞助商
 恰饭时间
 
-[**翻墙功夫网:100:**](http://across-gfw.com/register?aff=4598)
+[**翻墙功夫网:100:**](https://across-gfw.com/register?aff=4598)
 
-这是我所选择的服务器提供商，IPLC 专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册：[这里](https://iplc.store/register?aff=6476)
+这是我所选择的服务器提供商，IPLC 专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册：[这里](https://across-gfw.com/register?aff=4598)
 
 
 ## 规则使用方法
