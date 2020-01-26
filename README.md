@@ -13,6 +13,14 @@
 
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
+## 赞助商
+恰饭时间
+
+[**翻墙功夫网:100:**](http://across-gfw.com/register?aff=4598)
+
+这是我所选择的服务器提供商，IPLC 专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册：[这里](https://iplc.store/register?aff=6476)
+
+
 ## 规则使用方法
 
 -  [点我进入规则包下载页面](https://github.com/FQrabbit/SSTap-Rule/releases)
@@ -38,4 +46,5 @@
 如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。
 
 [Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md)
+
 
