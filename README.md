@@ -13,13 +13,12 @@
 
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
-## 赞助商
-恰饭时间
+## 相关推荐
+[![](https://raw.githubusercontent.com/NormanBB/SSTap-Rule/master/doc/n3ro-fun.png)](https://www.n3ro.fun)
 
 [**翻墙功夫网:100:**](https://across-gfw.com/register?aff=4598)
 
 这是我所选择的服务器提供商，IPLC 专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册：[这里](https://across-gfw.com/register?aff=4598)
-
 
 ## 规则使用方法
 
