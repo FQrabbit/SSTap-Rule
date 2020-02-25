@@ -44,8 +44,6 @@
 
 **欢迎大家一起来完善这里的所有规则！**  
 
-如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。
-
-[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md)
-
-
+如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。  
+[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)  
+[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md "更新日志")
