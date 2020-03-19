@@ -15,13 +15,6 @@
 
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
-## 相关推荐
-[![](https://raw.githubusercontent.com/NormanBB/SSTap-Rule/master/doc/n3ro-fun.png)](https://www.n3ro.fun)
-
-[**翻墙功夫网:100:**](https://geckoiplc.com/register?aff=4598)
-
-这是我所选择的服务器提供商，IPLC 专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册：[这里](https://geckoiplc.com/register?aff=4598)
-
 ## 规则使用方法
 
 -  [点我进入规则包下载页面](https://github.com/FQrabbit/SSTap-Rule/releases)
@@ -44,6 +37,8 @@
 
 **欢迎大家一起来完善这里的所有规则！**  
 
-如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。  
+如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。
+  
 [常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)  
-[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md "更新日志")
+
+[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/Changelog.md "更新日志")
