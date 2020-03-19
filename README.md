@@ -15,9 +15,6 @@
 
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
-## 相关推荐
-[![](https://raw.githubusercontent.com/NormanBB/SSTap-Rule/master/doc/n3ro-fun.png)](https://www.n3ro.fun)
-
 ## 规则使用方法
 
 -  [点我进入规则包下载页面](https://github.com/FQrabbit/SSTap-Rule/releases)
@@ -44,4 +41,4 @@
   
 [常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)  
 
-[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/changelog.md "更新日志")
+[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/Changelog.md "更新日志")
