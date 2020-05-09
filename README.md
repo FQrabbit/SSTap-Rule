@@ -55,5 +55,31 @@
 
 ### 服务器的选择
 
-游戏加速需服务器支持udp转发，建议使用项目推荐机场（看上面）。一般来说，使用SStap带来的NAT问题影响不大，而且还有其他因素在影响NAT类型，当你认识到了NAT问题的确给你带来游戏性能影响，可以去使用 Netch。
+游戏加速需服务器支持udp转发，在SStap中可以进行测试，建议使用项目推荐机场（看上面）。一般来说，使用SStap带来的NAT问题影响不大，例如在 Warframe 中，可以连接其他玩家，但一般不能当主机。而且还有其他因素在影响NAT类型，当你认识到了NAT问题的确给你带来游戏性能影响，可以去使用 Netch。
 
+### NAT
+
+首先，先对NAT有初步的了解，大致通读以下文章。
+
+> [NAT类型科普及一些简单提升NAT类型的方法](https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=199299)
+>
+> 作者 ：iSkyun
+>
+> 来源 ：https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=199299
+
+当你使用代理进行游戏时，NAT类型就仅取决于使用的代理软件以及代理服务器的NAT类型，与本机NAT类型无关。而使用SStap后，仅会保持在NAT4类型，这也是SStap的缺点。
+
+### 鸣谢
+
+- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
+- [unbound](https://github.com/NLnetLabs/unbound)
+- [中国运营商IPv4/IPv6地址库](https://github.com/gaoyifan/china-operator-ip)
+- [一个自动获取游戏远程ip，并自动写成SSTAP规则文件的脚本](https://github.com/oooldtoy/SSTAP_ip_crawl_tool)
+
+### 类似项目推荐
+
+- [Netch Game accelerator UDP NAT FullCone](https://github.com/NetchX/Netch)
+- [node-tap  基于TypeScript实现的开源SSTap](https://github.com/Srar/node-tap)
+- [配合node tap打游戏](https://github.com/lmc999/auto-add-routes/wiki/%E9%85%8D%E5%90%88node-tap%E6%89%93%E6%B8%B8%E6%88%8F)
+
+  [Q&A](./doc/Q&A.md)
