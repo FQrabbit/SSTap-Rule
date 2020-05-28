@@ -1,6 +1,27 @@
 
 
 # 更新日志
+
+### 2020年5月29日
+
+新增`Minecraft-Dungeons,我的世界-地下城` 游戏规则 
+
+### 2020年5月24日
+
+更新`Discord,Discord语音` 程序规则
+
+### 2020年4月15日
+
+新增`Magic: The Gathering Arena,万智牌:竞技场-国际服` 游戏规则 By @XinSSS
+
+### 2020年4月14日
+
+更新`Forza Horizon 4,极限竞速地平线4` 游戏规则 By @8023
+
+### 2020年4月4日
+
+更新`eve online` 游戏规则 By @wnark
+
 ### 2020年3月19日
 
 By @normanbb
