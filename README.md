@@ -49,4 +49,4 @@
   
 [常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)  
 
-[Changelog](https://github.com/FQrabbit/SSTap-Rule/blob/master/Changelog.md "更新日志")
+[Changelog(更新日志)](https://github.com/FQrabbit/SSTap-Rule/blob/master/Changelog.md "更新日志")
