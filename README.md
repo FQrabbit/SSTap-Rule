@@ -15,13 +15,6 @@
 
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
-## 相关推荐
-
-[**翻墙功夫网 :100:**](https://geckoiplc.com/register?aff=SSvrgZkX)
-
-这是我所选择的服务器提供商，IPLC专线翻墙、稳定、速度快、价格便宜。欢迎大家使用我的推广链接前去注册。
-
-[点我注册](https://geckoiplc.com/register?aff=SSvrgZkX)
 
 ## 规则使用方法
 
