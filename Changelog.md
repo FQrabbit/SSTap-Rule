@@ -2,6 +2,12 @@
 
 # 更新日志
 
+### 2020年8月16日
+
+更新`Steam` 平台规则
+
+更新`World of Tanks-Asia,坦克世界-亚服` 游戏规则
+
 ### 2020年8月14日
 By @ClarkeCheng
 
