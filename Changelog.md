@@ -3,7 +3,7 @@
 # 更新日志
 ### 2020年10月6日
 
-更新`TeamFortress2` 规则
+更新`TeamFortress2，Fall Guys` 规则
 
 ### 2020年8月16日
 
