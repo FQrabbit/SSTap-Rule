@@ -5,7 +5,7 @@
 ### 2021年5月14日
 
 更新`Discord` 软件规则 
-#458
+[#458](https://github.com/FQrabbit/SSTap-Rule/issues/458#issue-891633042)
 
 ### 2021年5月2日
 
