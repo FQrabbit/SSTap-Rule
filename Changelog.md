@@ -2,6 +2,19 @@
 
 # 更新日志
 
+### 2021年5月14日
+
+更新`Discord` 软件规则 
+[#458](https://github.com/FQrabbit/SSTap-Rule/issues/458#issue-891633042)
+
+### 2021年5月2日
+
+新增`Arma3,武装突袭3` 游戏规则 By @RealFakeAccount
+
+### 2021年3月21日
+
+更新`Rainbow-Six,彩虹六号-围攻` 游戏规则 By @mochaaP 
+
 ### 2020年8月16日
 
 更新`Steam` 平台规则
