@@ -2,6 +2,13 @@
 
 # 更新日志
 ### 2022年7月23日
+By @MirrorCY
+更新 `World of Warships CN，战舰世界国服` 游戏规则
+[#500](https://github.com/FQrabbit/SSTap-Rule/issues/500)
+更新 `CSGO-HK` 游戏规则
+[#503](https://github.com/FQrabbit/SSTap-Rule/issues/503)
+
+### 2022年7月23日
 更新 `Apex-Legends` 游戏规则 By @MirrorCY
 [#464](https://github.com/FQrabbit/SSTap-Rule/issues/464)
 [#481](https://github.com/FQrabbit/SSTap-Rule/issues/481)
