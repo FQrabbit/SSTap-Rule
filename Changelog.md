@@ -2,10 +2,9 @@
 
 # 更新日志
 ### 2022年7月23日
-更新 `Apex-Legends-UU` 游戏规则 By @MirrorCY
+更新 `Apex-Legends` 游戏规则 By @MirrorCY
 [#464](https://github.com/FQrabbit/SSTap-Rule/issues/464)
 [#481](https://github.com/FQrabbit/SSTap-Rule/issues/481)
-
 
 ### 2022年4月25日
 新增 `太空狼人杀-全区服` 游戏规则 By @jerryliang122
