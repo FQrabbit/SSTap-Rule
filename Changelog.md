@@ -1,7 +1,14 @@
 
 
 # 更新日志
+### 2022年9月28日
+
+更新`Microsoft Flight Simulator` 游戏规则 By @LittleJake
+
+[#470](https://github.com/FQrabbit/SSTap-Rule/issues/470)
+
 ### 2022年7月23日
+
 By @MirrorCY
 更新 `World of Warships CN，战舰世界国服` 游戏规则
 [#500](https://github.com/FQrabbit/SSTap-Rule/issues/500)
