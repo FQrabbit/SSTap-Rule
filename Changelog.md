@@ -1,6 +1,9 @@
 
 
 # 更新日志
+### 2022年11月18日
+新增 `MentalOmega,心灵终结` 游戏规则 By @3190
+
 ### 2022年9月28日
 
 更新`Microsoft Flight Simulator` 游戏规则 By @LittleJake
