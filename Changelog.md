@@ -1,6 +1,35 @@
-
-
 # 更新日志
+
+### 2023年1月30日
+
+新增`hos,风暴英雄` 游戏规则 By @oooldtoy
+
+### 2023年1月30日
+
+By @zhangdiming
+
+更新`Forza Horizon 4,极限竞速地平线4` 游戏规则 
+
+更新`Forza Horizon 4,极限竞速地平线5` 游戏规则 
+
+更新`World War 3,世界大战3` 游戏规则 
+
+更新`Call-Of-Duty-Modern-Warfare,使命召唤现代战争` 游戏规则 
+
+更新`Diablo3-Asia,暗黑破坏神3-亚服` 游戏规则 
+
+新增 `Call-Of-Duty17-ColdWar,使命召唤17 冷战` 游戏规则 
+
+新增 `Fall Guys,糖豆人` 游戏规则 
+
+新增 `MIR4-asia,传奇4-亚服` 游戏规则 
+
+### 2023年1月13日
+新增 `Call-Of-Duty-Modern-Warfare,使命召唤现代战争` 游戏规则 By @zhangdiming
+
+### 2023年1月13日
+新增 `Goose Goose Duck,鹅鸭杀港区` 游戏规则 By @jixishi
+
 ### 2022年11月18日
 新增 `MentalOmega,心灵终结` 游戏规则 By @3190
 
