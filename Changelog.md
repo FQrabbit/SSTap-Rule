@@ -1,5 +1,9 @@
 # 更新日志
 
+### 2023年2月23日
+
+更新`Warframe,星际战甲` 游戏规则 By @Pencilqaq
+
 ### 2023年2月20日
 
 新增`Warframe,星际战甲` 游戏规则 By @Pencilqaq
