@@ -1,26 +1,30 @@
-# 更新日志
+# 更新日志 Change Log
+
+### 2023年03月23日
+
+新增 `Twitch` 平台规则
 
 ### 2023年2月20日
 
-新增`Warframe,星际战甲` 游戏规则 By @Pencilqaq
+新增 `Warframe,星际战甲` 游戏规则 By @Pencilqaq
 
 ### 2023年1月30日
 
-新增`hos,风暴英雄` 游戏规则 By @oooldtoy
+新增 `hos,风暴英雄` 游戏规则 By @oooldtoy
 
 ### 2023年1月30日
 
 By @zhangdiming
 
-更新`Forza Horizon 4,极限竞速地平线4` 游戏规则 
+更新 `Forza Horizon 4,极限竞速地平线4` 游戏规则 
 
-更新`Forza Horizon 4,极限竞速地平线5` 游戏规则 
+更新 `Forza Horizon 4,极限竞速地平线5` 游戏规则 
 
-更新`World War 3,世界大战3` 游戏规则 
+更新 `World War 3,世界大战3` 游戏规则 
 
-更新`Call-Of-Duty-Modern-Warfare,使命召唤现代战争` 游戏规则 
+更新 `Call-Of-Duty-Modern-Warfare,使命召唤现代战争` 游戏规则 
 
-更新`Diablo3-Asia,暗黑破坏神3-亚服` 游戏规则 
+更新 `Diablo3-Asia,暗黑破坏神3-亚服` 游戏规则 
 
 新增 `Call-Of-Duty17-ColdWar,使命召唤17 冷战` 游戏规则 
 
@@ -39,7 +43,7 @@ By @zhangdiming
 
 ### 2022年9月28日
 
-更新`Microsoft Flight Simulator` 游戏规则 By @LittleJake
+更新 `Microsoft Flight Simulator` 游戏规则 By @LittleJake
 
 [#470](https://github.com/FQrabbit/SSTap-Rule/issues/470)
 
@@ -64,43 +68,43 @@ By @MirrorCY
 
 ### 2021年6月10日
 
-新增`泡泡战士-跑跑卡丁车-韩服` 游戏规则 By @slashyue 
+新增 `泡泡战士-跑跑卡丁车-韩服` 游戏规则 By @slashyue 
 
 ### 2021年5月14日
 
-更新`Discord` 软件规则 
+更新 `Discord` 软件规则 
 [#458](https://github.com/FQrabbit/SSTap-Rule/issues/458#issue-891633042)
 
 ### 2021年5月2日
 
-新增`Arma3,武装突袭3` 游戏规则 By @RealFakeAccount
+新增 `Arma3,武装突袭3` 游戏规则 By @RealFakeAccount
 
 ### 2021年3月21日
 
-更新`Rainbow-Six,彩虹六号-围攻` 游戏规则 By @mochaaP 
+更新 `Rainbow-Six,彩虹六号-围攻` 游戏规则 By @mochaaP 
 
 ### 2020年8月16日
 
-更新`Steam` 平台规则
+更新 `Steam` 平台规则
 
-更新`World of Tanks-Asia,坦克世界-亚服` 游戏规则
+更新 `World of Tanks-Asia,坦克世界-亚服` 游戏规则
 
 ### 2020年8月14日
 By @ClarkeCheng
 
-新增`Halo-The-Master-Chief-Collection,光环：士官长合集` 游戏规则
+新增 `Halo-The-Master-Chief-Collection,光环：士官长合集` 游戏规则
 
 ### 2020年3月19日
 
 By @normanbb
 
-更新`Escape from Tarkov,逃离塔克夫` 游戏规则
+更新 `Escape from Tarkov,逃离塔克夫` 游戏规则
 
-更新`Maplestory-us,冒险岛美服` 游戏规则
+更新 `Maplestory-us,冒险岛美服` 游戏规则
 
-新增`Call-Of-Duty16-Modern-Warfare,使命召唤16：现代战争` 游戏规则
+新增 `Call-Of-Duty16-Modern-Warfare,使命召唤16：现代战争` 游戏规则
 
-更新`Borderlands3-asia,无主之地3` 游戏规则
+更新 `Borderlands3-asia,无主之地3` 游戏规则
 
 删除无效规则
 
@@ -108,21 +112,21 @@ By @normanbb
 
 By @normanbb
 
-更新`BlackDesert,黑色沙漠` 游戏规则
+更新 `BlackDesert,黑色沙漠` 游戏规则
 
-更新`BlackSurvivor,黑色幸存者` 游戏规则
+更新 `BlackSurvivor,黑色幸存者` 游戏规则
 
-更新`Fortnite-as,堡垒之夜亚服`游戏规则
+更新 `Fortnite-as,堡垒之夜亚服`游戏规则
 
-更新`跳过中国大陆`规则
+更新 `跳过中国大陆`规则
 
-更新`Warthunder，战争雷霆`游戏规则
+更新 `Warthunder，战争雷霆`游戏规则
 
-新增`world war 3`游戏规则
+新增 `world war 3`游戏规则
 
-新增`Miscreated,误造`游戏规则
+新增 `Miscreated,误造`游戏规则
 
-新增`仙境传说OL 2 （美服）,Ragnarok-Online-2-us`游戏规则
+新增 `仙境传说OL 2 （美服）,Ragnarok-Online-2-us`游戏规则
 
 
 ### 2019年12月19日
@@ -139,9 +143,9 @@ By @normanbb
 
 新增 `StarCraft-2-asia，星际争霸2`（亚服）游戏规则 By @normanbb
 
-更新`League-of-Legends-jp，LOL日服` 规则 By ip_crawl_tool
+更新 `League-of-Legends-jp，LOL日服` 规则 By ip_crawl_tool
 
-新增`rules/World-of-warships-EU，战舰世界欧服` 规则 By ip_crawl_tool
+新增 `rules/World-of-warships-EU，战舰世界欧服` 规则 By ip_crawl_tool
 
 ### 2019年11月29日
 
@@ -151,13 +155,13 @@ By @normanbb
 
 新增 `Dauntless，不屈不挠`游戏规则 By @412572219
 
-更新`GTA5`游戏规则  By @normanbb
+更新 `GTA5`游戏规则  By @normanbb
 
 新增 `Guild-Wars-2,激战2`游戏规则 By @normanbb
 
 新增 `Ring-of-Elysium,无限法则`（亚服）游戏规则 By @normanbb
 
-删除`Warframe，星际战甲`（steam）游戏规则  By @normanbb（游戏使用P2P互联，且服务器质量已改善。）
+删除 `Warframe，星际战甲`（steam）游戏规则  By @normanbb（游戏使用P2P互联，且服务器质量已改善。）
 
 新增 `Star-Wars-BattlefrontII,星球大战2前线`游戏规则 By @normanbb
 
@@ -167,21 +171,21 @@ By @normanbb
 
 ### 2019年11月14日
 
-更新`Dota2-jp`游戏规则（日服） By @normanbb
+更新 `Dota2-jp`游戏规则（日服） By @normanbb
 
 新增 `Red-dead-redemption2，荒野大镖客2`游戏规则 By @normanbb
 
 新增 `Destiny2-steam，命运2`（steam）游戏规则 By @normanbb
 
-更新`PUBG`游戏规则（亚服及东南亚服） By @normanbb
+更新 `PUBG`游戏规则（亚服及东南亚服） By @normanbb
 
 新增 `Worldwar Z，僵尸世界大战`游戏规则 By @STC214
 
 ### 2019年11月14日
 
-更新`Day Z`规则 By @linianqing
+更新 `Day Z`规则 By @linianqing
 
-更新`China-ip-only` By @normanbb
+更新 `China-ip-only` By @normanbb
 
 ### 2019年11月4日
 
@@ -208,7 +212,7 @@ By @normanbb
 
 新增 `FINAL FANTASY XIV,最终幻想14` （国服）游戏规则  By @normanbb
 
-新增  `Borderlands 3,无主之地3`（亚服） By @normanbb
+新增 `Borderlands 3,无主之地3`（亚服） By @normanbb
 
 ### 2019年10月3日
 
@@ -256,7 +260,7 @@ By @normanbb
 
 ### 2019年6月20日
 
-更新`World War Z` （全服）游戏规则 By @STC214
+更新 `World War Z` （全服）游戏规则 By @STC214
 
 ### 2019年6月16日
 
@@ -318,7 +322,7 @@ By @normanbb
 
 ### 2019年2月23日
 
-更新 `Anthem` `Tom-Clancy's-Rainbow-Six-Siege-all` `War-thunder-steam` 新增 `Jump-Force` `League-of-Legends-kr` `NBA-2K19` `Pro-Evolution-Soccer-2018` `Pro-Evolution-Soccer-2019` `TianYaMingYueDao-tw`游戏规则 By @Bourshevik0
+更新 `Anthem` `Tom-Clancy's-Rainbow-Six-Siege-all` `War-thunder-steam` 新增 `Jump-Force` `League-of-Legends-kr` `NBA-2K19` `Pro-Evolution-Soccer-2018` `Pro-Evolution-Soccer-2019` `TianYaMingYueDao-tw` 游戏规则 By @Bourshevik0
 
 更新 `Tom-Clancy's-Rainbow-Six-Siege-EAS` By @TGs4-Monet
 
@@ -430,11 +434,11 @@ By @normanbb
 
 ### 2018年8月18日  
 
-更新`国内ip路由表` By @1715173329
+更新 `国内ip路由表` By @1715173329
 
 ### 2018年8月14日  
 
-更新`国内ip路由表` By @jason2000915
+更新 `国内ip路由表` By @jason2000915
 
 更新 `绝地求生-亚服、东南亚服PUBG Asia & Northeast Asia` 游戏规则 By @lmc999
 
@@ -478,9 +482,9 @@ By @normanbb
 
 ### 2018年7月7日
 
-新增`看门狗2 Watch Dogs2` 游戏规则 By @AmazingDM
+新增 `看门狗2 Watch Dogs2` 游戏规则 By @AmazingDM
 
-新增`微软商店 Microsoft-Store` 规则 By @WhitecrowAuraro  
+新增 `微软商店 Microsoft-Store` 规则 By @WhitecrowAuraro  
 
 新增及优化`只代理中国IP`,`不代理中国IP(且绕过局域网)` 规则 By @1715173329  
 
