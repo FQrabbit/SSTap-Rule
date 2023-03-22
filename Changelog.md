@@ -116,17 +116,17 @@ By @normanbb
 
 更新 `BlackSurvivor,黑色幸存者` 游戏规则
 
-更新 `Fortnite-as,堡垒之夜亚服`游戏规则
+更新 `Fortnite-as,堡垒之夜亚服` 游戏规则
 
-更新 `跳过中国大陆`规则
+更新 `跳过中国大陆` 规则
 
-更新 `Warthunder，战争雷霆`游戏规则
+更新 `Warthunder，战争雷霆` 游戏规则
 
-新增 `world war 3`游戏规则
+新增 `world war 3` 游戏规则
 
-新增 `Miscreated,误造`游戏规则
+新增 `Miscreated,误造` 游戏规则
 
-新增 `仙境传说OL 2 （美服）,Ragnarok-Online-2-us`游戏规则
+新增 `仙境传说OL 2 （美服）,Ragnarok-Online-2-us` 游戏规则
 
 
 ### 2019年12月19日
@@ -153,39 +153,39 @@ By @normanbb
 
 新增 `Maplestory-us，冒险岛` （美服）游戏规则 By @normanbb
 
-新增 `Dauntless，不屈不挠`游戏规则 By @412572219
+新增 `Dauntless，不屈不挠` 游戏规则 By @412572219
 
-更新 `GTA5`游戏规则  By @normanbb
+更新 `GTA5` 游戏规则  By @normanbb
 
-新增 `Guild-Wars-2,激战2`游戏规则 By @normanbb
+新增 `Guild-Wars-2,激战2` 游戏规则 By @normanbb
 
-新增 `Ring-of-Elysium,无限法则`（亚服）游戏规则 By @normanbb
+新增 `Ring-of-Elysium,无限法则` （亚服）游戏规则 By @normanbb
 
-删除 `Warframe，星际战甲`（steam）游戏规则  By @normanbb（游戏使用P2P互联，且服务器质量已改善。）
+删除 `Warframe，星际战甲` （steam）游戏规则  By @normanbb（游戏使用P2P互联，且服务器质量已改善。）
 
-新增 `Star-Wars-BattlefrontII,星球大战2前线`游戏规则 By @normanbb
+新增 `Star-Wars-BattlefrontII,星球大战2前线` 游戏规则 By @normanbb
 
 ### 2019年11月24日
 
-新增 `YY语音`（回国用）游戏规则 By @helpmsg
+新增 `YY语音` （回国用）游戏规则 By @helpmsg
 
 ### 2019年11月14日
 
-更新 `Dota2-jp`游戏规则（日服） By @normanbb
+更新 `Dota2-jp` 游戏规则（日服） By @normanbb
 
-新增 `Red-dead-redemption2，荒野大镖客2`游戏规则 By @normanbb
+新增 `Red-dead-redemption2，荒野大镖客2` 游戏规则 By @normanbb
 
-新增 `Destiny2-steam，命运2`（steam）游戏规则 By @normanbb
+新增 `Destiny2-steam，命运2` （steam）游戏规则 By @normanbb
 
-更新 `PUBG`游戏规则（亚服及东南亚服） By @normanbb
+更新 `PUBG` 游戏规则（亚服及东南亚服） By @normanbb
 
-新增 `Worldwar Z，僵尸世界大战`游戏规则 By @STC214
+新增 `Worldwar Z，僵尸世界大战` 游戏规则 By @STC214
 
 ### 2019年11月14日
 
-更新 `Day Z`规则 By @linianqing
+更新 `Day Z` 游戏规则 By @linianqing
 
-更新 `China-ip-only` By @normanbb
+更新 `China-ip-only` 规则 By @normanbb
 
 ### 2019年11月4日
 
@@ -212,7 +212,7 @@ By @normanbb
 
 新增 `FINAL FANTASY XIV,最终幻想14` （国服）游戏规则  By @normanbb
 
-新增 `Borderlands 3,无主之地3`（亚服） By @normanbb
+新增 `Borderlands 3,无主之地3` （亚服） By @normanbb
 
 ### 2019年10月3日
 
