@@ -1,5 +1,9 @@
 # 更新日志 Change Log
 
+### 2023年4月19日
+
+新增 `Scum,人渣` 游戏规则 By @hasegawa-taku
+
 ### 2023年03月23日
 
 新增 `Twitch` 平台规则
