@@ -1,0 +1,33 @@
+name: Update China IP list and generate BypassCN.rule
+
+on:  
+  workflow_dispatch:
+
+  schedule: 
+    - cron:  '0 2 */3 * *'
+
+jobs:
+  build:
+    name: Generate BypassCN.rule
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Run the updategeoip-cn.sh
+      run: ./tools/updategeoip-cn.sh
+      shell: bash
+
+    - name: Git Add BypassCNandLan.rules
+      run: |
+        git config --local user.email ""
+        git config --local user.name "github-action[bot]"
+        git fetch
+        cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
+        git add ./rules/BypassCNandLan.rules
+        git commit -am "Updated at $(date)"
+            
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        force: true
