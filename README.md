@@ -41,4 +41,21 @@
 
 如果项目内不存在你所需要的规则，你可以 [开 issue](https://github.com/FQrabbit/SSTap-Rule/issues/new/choose) 来请求新增规则(新增时限不确定) 或 [查看wiki教程](https://github.com/FQrabbit/SSTap-Rule/wiki) 来自己编写路由表。
   
-[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md)  
+[常见问题](https://github.com/FQrabbit/SSTap-Rule/blob/master/FAQ.md) 
+
+## Contributors 贡献者  
+Special thanks to all the contributors who have helped in this project:  
+特别感谢所有为本项目提供帮助的人员：  
+<a href="https://github.com/FQrabbit/SSTap-Rule/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FQrabbit/SSTap-Rule" />
+</a>
+
+## Star History
+
+<a href="https://star-history.com/#FQrabbit/SSTap-Rule&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
+  </picture>
+</a>
