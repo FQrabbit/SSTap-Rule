@@ -26,7 +26,7 @@ jobs:
         git fetch
         cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
         git add ./rules/BypassCNandLan.rules
-        git commit -am "Updated at $(date)"
+        git commit -am "Updated at $(date)" --allow-empty
             
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
