@@ -2,8 +2,12 @@
 
 ### 2023年4月19日
 
+By @zhangdiming
+
 更新`Diablo4-HK,暗黑破坏神4-亚服`游戏规则
+
 更新`PUBG-Asia&-Southeast-Asia,绝地求生亚服&东南亚服`游戏规则
+
 更新`Monster-Hunter-World,怪兽世界猎人steam版`游戏规则
 
 ### 2023年4月19日
