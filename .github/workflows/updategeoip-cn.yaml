@@ -26,7 +26,20 @@ jobs:
         git fetch
         cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
         git add ./rules/BypassCNandLan.rules
-        git commit -am "Updated at $(date)"
+        if ! git commit -am "Updated at $(date)"; then
+          curl -oL ./ https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan.rules         
+          hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
+          hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
+          if [ "$hash1" == "$hash2" ]; then
+            echo "Hashes match. The files are identical."
+            echo "Upstream not updated"
+          else
+            echo "Hashes do not match. The files are different."
+            echo "ERROR! Upstream updated! There's something went WRONG!"
+            exit 1
+          fi
+        fi
+
             
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
