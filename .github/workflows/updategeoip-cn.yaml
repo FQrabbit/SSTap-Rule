@@ -56,7 +56,7 @@ jobs:
             
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
-      if: ${{ env.upstream_status }} == '0'
+      if: ${{ env.status }} == '0'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
