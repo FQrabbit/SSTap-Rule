@@ -1,0 +1,48 @@
+name: Update China IP list (Source someip) and generate BypassCN.rule
+
+on:  
+  workflow_run:
+    workflows: [Update China IP list and generate BypassCN.rule]
+    types:
+      - completed
+jobs:
+  build:
+    name: Generate BypassCN.rule
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Check out code into directory
+      uses: actions/checkout@v4
+    
+    - name: Run the updategeoip-cn-someip.sh
+      run: ./tools/updategeoip-cn-someip.sh
+      shell: bash
+
+    - name: Git Add BypassCNandLan_someip.rules
+      run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git fetch
+        cp ./BypassCNandLan_someip.rules ./rules/BypassCNandLan_someip.rules
+        git add ./rules/BypassCNandLan_someip.rules
+        if ! git commit -am "Updated at $(date) \(Source: https://github.com/0x2E/someip\)"; then
+          curl -o BypassCNandLan_someip.rules -L https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan_someip.rules         
+          hash1=$(sha256sum "./BypassCNandLan_someip.rules" | awk '{print $1}')
+          hash2=$(sha256sum "./rules/BypassCNandLan_someip.rules" | awk '{print $1}')
+          if [ "$hash1" == "$hash2" ]; then
+            echo "Hashes match. The files are identical."
+            echo "Upstream not updated"
+          else
+            echo "Hashes do not match. The files are different."
+            echo "ERROR! Upstream updated! There's something went WRONG!"
+            exit 1
+          fi
+        fi
+
+            
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        force: true
