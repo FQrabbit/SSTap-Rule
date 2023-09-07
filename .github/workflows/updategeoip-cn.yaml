@@ -42,16 +42,21 @@ jobs:
           if [ "$hash1" == "$hash2" ]; then
             echo "Hashes match. The files are identical."
             echo "Upstream not updated"
+            echo "status=1" >> $GITHUB_ENV
+            exit 0
           else
             echo "Hashes do not match. The files are different."
             echo "ERROR! Upstream updated! There's something went WRONG!"
+            echo "status=1" >> $GITHUB_ENV
             exit 1
           fi
         fi
+        echo "status=0" >> $GITHUB_ENV
 
             
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
+      if: ${{ env.upstream_status }} == '0'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
