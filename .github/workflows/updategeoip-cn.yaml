@@ -27,7 +27,7 @@ jobs:
         cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
         git add ./rules/BypassCNandLan.rules
         if ! git commit -am "Updated at $(date)"; then
-          curl -oL ./ https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan.rules         
+          curl -o BypassCNandLan.rules -L https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan.rules         
           hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
           hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
           if [ "$hash1" == "$hash2" ]; then
