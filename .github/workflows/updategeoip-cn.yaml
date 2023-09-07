@@ -13,7 +13,7 @@ jobs:
     steps:
 
     - name: Check out code into directory
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Run the updategeoip-cn.sh
       run: ./tools/updategeoip-cn.sh
