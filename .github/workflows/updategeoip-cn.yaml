@@ -30,6 +30,7 @@ jobs:
           curl -o BypassCNandLan.rules -L https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan.rules         
           hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
           hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
+          echo -e "hash1=$hash1\nhash2=$hash2"
           if [ "$hash1" == "$hash2" ]; then
             echo "Hashes match. The files are identical."
             echo "Upstream not updated"
