@@ -21,7 +21,7 @@
 [GEOIPCN.1](https://github.com/KoinuDayo/SSTap-Rule/raw/master/rules/BypassCNandLan.rules)  ||   [GEOIPCN.2](https://github.com/KoinuDayo/SSTap-Rule/raw/master/rules/BypassCNandLan_someip.rules)
 
 - GEOIPCN.1 是[Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)的完整版本
-- GEOIPCN.2 而是[0x2E/someip](https://github.com/0x2E/someip点简化版本)   
+- GEOIPCN.2 而是[0x2E/someip](https://github.com/0x2E/someip)的简化版本    
 两者在使用上一般不会有什么差距。  
 如果追求最小错误率请选择GEOIPCN.1，最求最高效率请选择GEOIPCN.2
 
