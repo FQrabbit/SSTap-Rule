@@ -1,4 +1,4 @@
-name: Update China IP list and generate BypassCN.rule
+name: Update China IP list and generate BypassCN.rule and BypassCN_someip.rule
 
 on:  
   workflow_dispatch:
@@ -14,8 +14,27 @@ jobs:
 
     - name: Check out code into directory
       uses: actions/checkout@v4
-    
-    - name: Run the updategeoip-cn.sh
+
+    - name: Git config
+      run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git fetch
+      shell: bash
+
+    - name: Get CIDR (Source someip) field
+      run: |
+        echo "#BypassCNandLan,绕过大陆和局域网someip,1,1,1,0,0,0," >> BypassCNandLan_someip.rules
+
+        curl https://raw.githubusercontent.com/0x2E/someip/build/cidr.txt >> BypassCNandLan_someip.rules
+
+        sed -i '2{/^$/d;}' BypassCNandLan_someip.rules # 删除源文件内第二行的空行
+        echo 10.0.0.0/8 >> BypassCNandLan_someip.rules
+        echo 172.16.0.0/12 >> BypassCNandLan_someip.rules
+        echo 192.168.0.0/16 >> BypassCNandLan_someip.rules
+      shell: bash
+
+    - name: Get CIDR field
       run: |
         echo "#BypassCNandLan,绕过大陆和局域网,1,1,1,0,0,0," >> BypassCNandLan.rules
 
@@ -27,36 +46,56 @@ jobs:
         echo 192.168.0.0/16 >> BypassCNandLan.rules
       shell: bash
 
-    - name: Git Add BypassCNandLan.rules
+    - name: Compare New file and Old file (Source someip)
       run: |
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config user.name "github-actions[bot]"
-        git fetch
-        cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
-        git add ./rules/BypassCNandLan.rules
-        if ! git commit -am "Updated at $(date)"; then
-          curl -o BypassCNandLan.rules -L https://github.com/FQrabbit/SSTap-Rule/raw/master/rules/BypassCNandLan.rules         
-          hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
-          hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
-          echo -e "hash1=$hash1\nhash2=$hash2"
-          if [ "$hash1" == "$hash2" ]; then
-            echo "Hashes match. The files are identical."
-            echo "Upstream not updated"
-            echo "status=1" >> $GITHUB_ENV
-            exit 0
-          else
-            echo "Hashes do not match. The files are different."
-            echo "ERROR! Upstream updated! There's something went WRONG!"
-            echo "status=1" >> $GITHUB_ENV
-            exit 1
-          fi
+        hash1=$(sha256sum "./BypassCNandLan_someip.rules" | awk '{print $1}')
+        hash2=$(sha256sum "./rules/BypassCNandLan_someip.rules" | awk '{print $1}')
+        echo -e "hash1=$hash1\nhash2=$hash2"
+        if [ "$hash1" == "$hash2" ]; then
+          echo "Hashes match. The files are identical."
+          echo "Upstream not updated"
+          echo "STATUS_1=1" >> $GITHUB_ENV
+          exit 0
+        else
+          echo "Hashes do not match. The files are different."
+          echo "Upstream updated."
+          echo "STATUS_1=0" >> $GITHUB_ENV
+          cp ./BypassCNandLan_someip.rules ./rules/BypassCNandLan_someip.rules
+          git add ./rules/BypassCNandLan_someip.rules
+          git commit -am "Updated at $(date)"
         fi
-        echo "status=0" >> $GITHUB_ENV
+      shell: bash
 
-            
+    - name: Compare New file and Old file
+      run: |
+        hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
+        hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
+        echo -e "hash1=$hash1\nhash2=$hash2"
+        if [ "$hash1" == "$hash2" ]; then
+          echo "Hashes match. The files are identical."
+          echo "Upstream not updated"
+          echo "STATUS_2=1" >> $GITHUB_ENV
+          exit 0
+        else
+          echo "Hashes do not match. The files are different."
+          echo "Upstream updated."
+          echo "STATUS_2=0" >> $GITHUB_ENV
+          cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
+          git add ./rules/BypassCNandLan.rules
+          git commit -am "Updated at $(date)"
+        fi
+      shell: bash
+
+    - name: Check GitHub Environment Variable and judgment wheather a Github Push is Needed
+      run: |
+        if [[ "${{ env.STATUS_1 }}" == "0" ]] || [[ "${{ env.STATUS_2 }}" == "0" ]] ; then
+          echo "NeedUpdate=true" >> $GITHUB_ENV
+        fi
+      shell: bash
+
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
-      if: ${{ env.status }} == '0'
+      if: ${{ env.NeedUpdate }} == 'true'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
