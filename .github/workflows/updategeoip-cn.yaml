@@ -1,4 +1,4 @@
-name: Update China IP list and generate BypassCN.rule and BypassCN_someip.rule
+name: Update China IP list and generate BypassCN.rules and BypassCN_someip.rules
 
 on:  
   workflow_dispatch:
@@ -90,12 +90,15 @@ jobs:
       run: |
         if [[ "${{ env.STATUS_1 }}" == "0" ]] || [[ "${{ env.STATUS_2 }}" == "0" ]] ; then
           echo "NeedUpdate=true" >> $GITHUB_ENV
+        else
+          echo "NeedUpdate=false" >> $GITHUB_ENV
         fi
+        echo ${{ env.NeedUpdate }}
       shell: bash
 
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
-      if: ${{ env.NeedUpdate }} == 'true'
+      if: env.NeedUpdate == 'true'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
