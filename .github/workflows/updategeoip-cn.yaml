@@ -62,7 +62,7 @@ jobs:
           echo "STATUS_1=0" >> $GITHUB_ENV
           cp ./BypassCNandLan_someip.rules ./rules/BypassCNandLan_someip.rules
           git add ./rules/BypassCNandLan_someip.rules
-          git commit -am "Updated at $(date)"
+          git commit -am "Updated at $(TZ='Asia/Shanghai' date)"
         fi
       shell: bash
 
@@ -82,7 +82,7 @@ jobs:
           echo "STATUS_2=0" >> $GITHUB_ENV
           cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
           git add ./rules/BypassCNandLan.rules
-          git commit -am "Updated at $(date)"
+          git commit -am "Updated at $(TZ='Asia/Shanghai' date)"
         fi
       shell: bash
 
