@@ -18,7 +18,7 @@
 在这里会不定时的更新各个游戏的路由表规则，你只要下载所需的规则或规则包导入对应文件夹即可使用。
 
 ## 关于两个GEOIP源
-[GEOIPCN.1](https://github.com/KoinuDayo/SSTap-Rule/raw/master/rules/BypassCNandLan.rules)  ||   [GEOIPCN.2](https://github.com/KoinuDayo/SSTap-Rule/raw/master/rules/BypassCNandLan_someip.rules)
+[GEOIPCN.1](rules/BypassCNandLan.rules?raw=true)  ||   [GEOIPCN.2](rules/BypassCNandLan_someip.rules?raw=true)
 
 - GEOIPCN.1 是[Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)的完整版本
 - GEOIPCN.2 而是[0x2E/someip](https://github.com/0x2E/someip)的简化版本    
