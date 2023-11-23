@@ -1,0 +1,34 @@
+name: 请求新增规则
+description: 请求新增规则的想法
+body:
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 欢迎
+      options:
+        - label: 若未使用自动抓ip工具，且在issue中说明已使用的，此issue将会被忽略或关闭。
+          required: true
+        - label: 请使用[自动抓IP工具](https://github.com/oooldtoy/SSTAP_ip_crawl_tool)来帮助我们编写规则，并详细写明游戏细节，如哪个服，哪个版本。
+          required: true
+  - type: input
+    attributes:
+      label: 名称
+      description: 请将需要增加游戏\程序名字填入此区域
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 运行环境
+      description: 该游戏\程序的运行环境
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 代理部分
+      description: 该游戏\程序哪部分需要代理
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 特殊情况
+      description: 如果还有特殊想说明的请在这里描述.
