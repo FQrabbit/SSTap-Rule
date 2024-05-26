@@ -7,8 +7,8 @@ on:
     - cron:  '0 2 */3 * *'
 
 jobs:
-  prepare:
-    name: Set up
+  update:
+    name: Generate rules
     runs-on: ubuntu-latest
     steps:
     
@@ -22,24 +22,6 @@ jobs:
         git fetch --unshallow
       shell: bash
 
-    - name: Save Cache
-      uses: actions/cache/save@v3
-      with:
-        path: ./
-        key: restore-${{ github.sha }}-${{ github.run_number }}
-
-  rules:
-    name: Generate rules
-    runs-on: ubuntu-latest
-    needs: prepare
-    steps:
-
-    - name: Restore Cache
-      uses: actions/cache/restore@v3
-      with:
-        path: ./
-        key: restore-
-
     - name: Get CIDR field
       run: |
         echo "#BypassCNandLan,绕过大陆和局域网,1,1,1,0,0,0," >> BypassCNandLan.rules
@@ -50,51 +32,9 @@ jobs:
         echo 10.0.0.0/8 >> BypassCNandLan.rules
         echo 172.16.0.0/12 >> BypassCNandLan.rules
         echo 192.168.0.0/16 >> BypassCNandLan.rules
-      shell: bash
 
-    - name: Compare New file and Old file
-      run: |
-        hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
-        hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
-        echo -e "hash1=$hash1\nhash2=$hash2"
-        if [ "$hash1" == "$hash2" ]; then
-          echo "Hashes match. The files are identical."
-          echo "Upstream not updated"
-          echo "STATUS=1" >> $GITHUB_ENV
-          exit 0
-        else
-          echo "Hashes do not match. The files are different."
-          echo "Upstream updated."
-          echo "STATUS=0" >> $GITHUB_ENV
-          cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
-          echo "MESSAGE=\"Update at $(TZ=Asia/Shanghai date)\"" >> $GITHUB_ENV
-        fi
-      shell: bash
-      
-    - uses: planetscale/ghcommit-action@v0.1.6
-      if: env.STATUS == '0'
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      with:
-        commit_message: "${{ env.MESSAGE }}"
-        repo: ${{ github.repository }}
-        branch: ${{ github.head_ref || github.ref_name }}
-        file_pattern: './rules/BypassCNandLan.rules'
 
-  someip:
-    name: Generate rules (someip)
-    runs-on: ubuntu-latest
-    needs: prepare
-    steps:
-
-    - name: Restore Cache
-      uses: actions/cache/restore@v3
-      with:
-        path: ./
-        key: restore-
-
-    - name: Get CIDR field
-      run: |
+        
         echo "#BypassCNandLan,绕过大陆和局域网someip,1,1,1,0,0,0," >> BypassCNandLan_someip.rules
 
         curl https://raw.githubusercontent.com/0x2E/someip/build/cidr.txt >> BypassCNandLan_someip.rules
@@ -107,29 +47,47 @@ jobs:
 
     - name: Compare New file and Old file
       run: |
-        hash1=$(sha256sum "./BypassCNandLan_someip.rules" | awk '{print $1}')
-        hash2=$(sha256sum "./rules/BypassCNandLan_someip.rules" | awk '{print $1}')
-        echo -e "hash1=$hash1\nhash2=$hash2"
-        if [ "$hash1" == "$hash2" ]; then
-          echo "Hashes match. The files are identical."
-          echo "Upstream not updated"
-          echo "STATUS=1" >> $GITHUB_ENV
-          exit 0
-        else
-          echo "Hashes do not match. The files are different."
-          echo "Upstream updated."
-          echo "STATUS=0" >> $GITHUB_ENV
-          cp ./BypassCNandLan_someip.rules ./rules/BypassCNandLan_someip.rules
-          echo "MESSAGE=\"Update at $(TZ=Asia/Shanghai date)\"" >> $GITHUB_ENV
-        fi
+        (
+          hash1=$(sha256sum "./BypassCNandLan.rules" | awk '{print $1}')
+          hash2=$(sha256sum "./rules/BypassCNandLan.rules" | awk '{print $1}')
+          echo -e "hash1=$hash1\nhash2=$hash2"
+          if [ "$hash1" == "$hash2" ]; then
+            echo "Hashes match. The files are identical."
+            echo "Upstream not updated"
+            echo "STATUS_0=1" >> $GITHUB_ENV
+            rm ./BypassCNandLan.rules
+          else
+            echo "Hashes do not match. The files are different."
+            echo "Upstream updated."
+            echo "STATUS_0=0" >> $GITHUB_ENV
+            cp ./BypassCNandLan.rules ./rules/BypassCNandLan.rules
+          fi
+        )
+        (
+          hash1=$(sha256sum "./BypassCNandLan_someip.rules" | awk '{print $1}')
+          hash2=$(sha256sum "./rules/BypassCNandLan_someip.rules" | awk '{print $1}')
+          echo -e "hash1=$hash1\nhash2=$hash2"
+          if [ "$hash1" == "$hash2" ]; then
+            echo "Hashes match. The files are identical."
+            echo "Upstream not updated"
+            echo "STATUS_1=1" >> $GITHUB_ENV
+            rm ./BypassCNandLan_someip.rules
+          else
+            echo "Hashes do not match. The files are different."
+            echo "Upstream updated."
+            echo "STATUS_1=0" >> $GITHUB_ENV
+            cp ./BypassCNandLan_someip.rules ./rules/BypassCNandLan_someip.rules
+          fi
+        )
+        echo "MESSAGE=\"Update at $(TZ=Asia/Shanghai date)\"" >> $GITHUB_ENV
       shell: bash
       
     - uses: planetscale/ghcommit-action@v0.1.6
-      if: env.STATUS == '0'
+      if: env.STATUS_0 == '0' || env.STATUS_1 == '0'
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         commit_message: "${{ env.MESSAGE }}"
         repo: ${{ github.repository }}
         branch: ${{ github.head_ref || github.ref_name }}
-        file_pattern: './rules/BypassCNandLan_someip.rules'
+        file_pattern: './rules/BypassCNandLan.rules ./rules/BypassCNandLan_someip.rules'
