@@ -35,7 +35,7 @@ UU加速模式科普
 
 ![](https://i.loli.net/2018/12/27/5c2432de45f25.png)
 
-## 3.选择节点加速成功后打开 CMD(Win+R输入CMD打开,无需管理员权限) 和 [路由转SSTAP规则工具](https://www.ssrtool.com/tool/routeToRules)
+## 3.选择节点加速成功后打开 CMD(Win+R输入CMD打开,无需管理员权限) 和 [路由转SSTAP规则工具](https://ittuann.github.io/Route2CIDR/)
 
 在CMD里找好目录后输入以下命令将路由信息输出到文件
 
@@ -49,9 +49,9 @@ UU加速模式科普
 
 ![](https://i.loli.net/2018/12/31/5c2a2cc931852.png)
 
-将内容复制到 [路由转SSTAP规则工具](https://www.ssrtool.com/tool/routeToRules) 进行转换
+将内容复制到 [路由转SSTAP规则工具](https://ittuann.github.io/Route2CIDR/) 进行转换
 
-![](https://i.loli.net/2018/12/13/5c11fffe0ffe8.png)
+![Route2CIDR.png](https://s2.loli.net/2024/08/18/bq3FmMJxGzpUyXn.png)
 
 ## 4.把转换后右边输出的一堆东西复制下来在SSTAP根目录rules文件夹新建一个xxx.rules的文件并完善相关信息
 
@@ -69,7 +69,7 @@ UU加速模式科普
 
 如遇到无法转换或转换无反应结果为空，请检查当前加速模式是否为教程所示的3种模式
 
-注：[转换工具](https://www.ssrtool.com/tool/routeToRules)将过滤所有[保留IP](https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%95%99IP%E5%9C%B0%E5%9D%80)，转换失败后可自行对比route.txt里的IP。出现无法访问请挂代理。 ;D
+注：[转换工具](https://ittuann.github.io/Route2CIDR/)将过滤所有[保留IP](https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%95%99IP%E5%9C%B0%E5%9D%80)，转换失败后可自行对比route.txt里的IP。出现无法访问请挂代理。 ;D
 
 
 
