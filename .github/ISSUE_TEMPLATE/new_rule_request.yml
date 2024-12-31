@@ -9,7 +9,7 @@ body:
         - label: 若未使用自动抓ip工具，且在issue中说明已使用的，此issue将会被忽略或关闭。
           required: true
         - label: 请使用[自动抓IP工具](https://github.com/oooldtoy/SSTAP_ip_crawl_tool)来帮助我们编写规则，并详细写明游戏细节，如哪个服，哪个版本。
-          required: true
+          required: false
   - type: input
     attributes:
       label: 名称
