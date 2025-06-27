@@ -1,6 +1,8 @@
 # 更新日志 Change Log
 ### 2025年6月26日
 
+新增 `MapleStory-Universe,冒险岛N-迅游` 游戏规则 By @hasegawa-taku
+
 新增 `Xbox-Cloud-Gaming-UU,Xbox云游戏-UU` 游戏规则 By @hasegawa-taku
 
 ### 2024年1月3日
