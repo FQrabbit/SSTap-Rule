@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -eu
-regex='(^10|^172\.(1[6-9]|2[0-9]|3[01])|^192\.168|^169\.254|^22[4-9]|^2[3-5][0-9])\.'
+regex="(^0|^127|^255|^10|^172\.(1[6-9]|2[0-9]|3[01])|^192\.168|^169\.254|^22[4-9]|^2[3-5][0-9])\."
 logfile="removed_reserved_ips.log"
 >"$logfile"
 count_files=0
@@ -28,7 +28,7 @@ while IFS= read -r -d '' file; do
   fi
 done < <(find rules -type f -print0)
 # compute total removed lines from logfile
-count_lines=$(grep -E -c "(^10|^172\.(1[6-9]|2[0-9]|3[01])|^192\.168|^169\.254|^22[4-9]|^2[3-5][0-9])\." "$logfile" || true)
+count_lines=$(grep -E -c "(^0|^127|^255|^10|^172\.(1[6-9]|2[0-9]|3[01])|^192\.168|^169\.254|^22[4-9]|^2[3-5][0-9])\." "$logfile" || true)
 
 echo "modified_files=$count_files" >removed_summary.tmp
 echo "removed_lines=$count_lines" >>removed_summary.tmp
