@@ -60,10 +60,10 @@ Special thanks to all the contributors who have helped in this project:
 
 ## Star History
 
-<a href="https://star-history.com/#FQrabbit/SSTap-Rule&Date">
+<a href="https://star-history.dera.page/#FQrabbit/SSTap-Rule&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=FQrabbit/SSTap-Rule&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
+    <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=FQrabbit/SSTap-Rule&type=Date" />
   </picture>
 </a>
